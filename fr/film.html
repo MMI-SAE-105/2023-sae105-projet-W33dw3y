@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{isMenuOpen:false}" :class="{noscroll:isMenuOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page du film</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+<body class="body" :class="{noscroll:isMenuOpen}">
+    <header class="head">
+        <a class="head__logo"  href="/">
+            <img src="/assets/icones/logo_007.svg" alt="Logo">
+        </a>
+        
+        <img
+        @click="isMenuOpen = !isMenuOpen"
+         class="head__menu-burger" src="assets/icones/menu-burger.svg" alt="menu-burger">
+
+        <section class="menu" :class="{actif:isMenuOpen}"> 
+            
+            <div class="menu__header">
+                <a class="head__logo"  href="/">
+                    <img src="/assets/icones/logo_007.svg" alt="Logo">
+                </a>
+        
+                <img class="menu__close" src="/assets/icones/icon_close.svg" alt="croix"
+                @click="isMenuOpen = ! isMenuOpen"
+                >
+            </div>
+
+            <nav class="menu__nav">
+                <ul class="menu__main">
+                    <li class="menu__main--element"><a href="replique.html">My name is bond...</a></li>
+                    <hr class="menu__main--line">
+                    <li class="menu__main--element"><a href="film.html">Skyfall</a></li>
+                    <hr class="menu__main--line">
+                    <li class="menu__main--element"><a href="realisateur.html">Sam Mendes</a></li>
+                    <hr class="menu__main--line">
+                    <li class="menu__main--element"><a href="musique.html">L'opening</a></li>
+                    <hr class="menu__main--line">
+                    <li class="menu__main--element"><a href="livre.html">Casino Royal</a></li>
+                </ul>
+                <ul class="menu__second">
+                    <li class="menu__second--element"><a href="filmographie.html">Filmographie</a></li>
+                    <li class="menu__second--element"><a href="bibliographie.html">Bibliographie</a></li>
+                </ul>
+            </nav>
+        
+            <section class="menu__footer">
+                <div class="footer__left">
+                    <nav class="footer__nav">
+                        <ul class="footer__nav--list">
+                            <li class="footer__nav--list-element"><a href="">Contact</a></li>
+                            <li class="footer__nav--list-element"><a href="">A propos</a></li>
+                            <li class="footer__nav--list-element"><a href="">Glossaire</a></li>                            <li class="footer__nav--list-element"><a href="">Autres Projets</a></li>
+                        </ul>
+                    </nav>
+                    <p class="footer__name">Mathis Liegeon MMI1 B2</p>
+                    <p class="footer__description">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+                </div>
+
+                <div class="footer__right">
+                    <button class="footer_language">Français</button>
+                    <img src="/assets/icones/icon_mmi.png" alt="logo MMI Montbéliard" class="footer__logo-mmi">
+                </div>
+            </section>
+            
+        </section>
+    </header>
+
+    <main>
+        <header class="header">
+            <h1 class="header__title">Skyfall sous la direction de Sam Mendes</h1>
+            <img class="header__background" src="" alt="Sam Mendes & Daniel Craig">
+
+            <img class="header__tiret" src="" alt="séparation">
+            <p class="header__intro">Explorez le chef-d'œuvre cinématographique qu'est Skyfall et plongez dans la renaissance audacieuse de James Bond</p>
+            <img class="header__scroll-arrow" src="" alt="fleches de scroll">
+        </header>
+
+        <body class="body">
+            <article class="article">
+                <h2 class="article__title">La vision de Sam Mendes</h2>
+                <p class="article__text">Skyfall est devenu un triomphe cinématographique qui a réussi à faire revivre la saga après l’échec de l’opus précédent Quantum Of Solace. En effet, sous la direction du talentueux Sam Mendes, Skyfall a su briller aux yeux du public, en amenant un équilibre des éléments traditionnels de la franchise avec une exploration profonde du personnage, de part la révélation de ses vulnérabilités, de ses doutes et de ses blessures.</p>
+                <img class="article__image" src="" alt="James bond & M in Scotland">
+                <p class="article__image-description">James Bond retourne vers ses origines</p>
+            </article>
+
+            <article class="article">
+                <h2 class="article__title">La Vulnérabilité de James Bond</h2>
+                <p class="article__text">Alors que les anciens opus montrent le légendaire espion britannique comme invincible. Celui-ci nous présente une autre facette du personnage, le rendant plus humain. Lors du visionnage du film, on ressent la vulnérabilité du personnage à travers ses blessures physiques et émotionnelles.
+                Le personnage de Silva, interprété par Javier Bardem, devient le méchant parfait de James Bond dans ce film. Bardem offre une performance exceptionnelle pour son personnage, on ressent son charisme tout le long du film et il rend le personnage extrêmement terrifiant grâce à son interprétation. La relation complexe entre Silva, Bond et M permet de renforcer l’intrigue et l’émotion de l’histoire.</p>
+                <img src="" alt="Javier Bardem as Silva" class="article__image">
+                <p class="article__image-description">Silva interprété par Javier Bardem</p>
+            </article>
+
+            <article class="article">
+                <h2 class="article__title">Le spectacle visuel</h2>
+                <p class="article__text">En plus de son approfondissement des personnages, à travers Skyfall Sam Mendes nous présente des scènes d'action mémorables : de la course poursuite au début du film à la scène finale au manoir Lodge. L’expertise de Sam Mendes nous apporte un spectacle visuel impressionnant à travers une direction artistique remarquable. Regroupant décors impressionnants, effets spéciaux soignés et une photographie captivante de la part de Roger Deakins</p>
+                <img src="" alt="fight scene" class="article__image">
+                <p class="article__image-description">La scène d’action à Sanghai</p>
+            </article>
+
+            <article class="article">
+                <h2 class="article__title">Conclusion</h2>
+                <p class="article__text">En somme, il est facile de nommer Skyfall comme un chef-d’œuvre du cinéma qui a réussi à réinventer la franchise tout en restant fidèle à son héritage. Sam Mendes a apporté une vision nouvelle à la saga grâce à son approfondissement des personnages qui implique émotionnellement le spectateur et à ses scènes d’actions couplées à son grand méchant inoubliable qu’est Silva.</p>
+            </article>
+
+            <button class="body__button">
+                <a href="">Voir L'ensemble des films</a>
+            </button>
+        </body>
+
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__nav--list">
+                    <li class="footer__nav--list-element"><a href="">Contact</a></li>
+                    <li class="footer__nav--list-element"><a href="">A propos</a></li>
+                    <li class="footer__nav--list-element"><a href="">Glossaire</a></li>
+                    <li class="footer__nav--list-element"><a href="">Autres Projets</a></li>
+                </ul>
+            </nav>
+            <p class="footer__name">Mathis Liegeon MMI1 B2</p>
+            <p class="footer__description">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+            <button class="footer_language">
+                <a href="">Français</a>
+            </button>
+            <img src="" alt="logo MMI Montbéliard" class="footer__logo-mmi">
+        </footer>
+    </main>
+    
+</body>
+</html>
