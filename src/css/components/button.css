@@ -1,0 +1,13 @@
+.button {
+    border: 1px solid white;
+    background: none;    
+    border-right: 0px;
+
+    font-family: '';
+    font-size: var(--heading-2);
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
