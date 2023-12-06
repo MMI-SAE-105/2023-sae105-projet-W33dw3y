@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{isMenuOpen:false}" :class="{noscroll:isMenuOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllAboutSkyfall</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+<body class="body" :class="{noscroll:isMenuOpen}">
+    <header class="head">
+        <a class="head__logo"  href="#">
+            <img src="/assets/icones/logo_007.svg" alt="Logo">
+        </a>
+        
+        <img
+        @click="isMenuOpen = !isMenuOpen"
+         class="head__menu-burger" src="assets/icones/menu-burger.svg" alt="menu-burger">
+
+        <section class="menu" :class="{actif:isMenuOpen}"> 
+            
+            <div class="menu__header">
+                <a class="head__logo"  href="/">
+                    <img src="/assets/icones/logo_007.svg" alt="Logo">
+                </a>
+        
+                <img class="menu__close" src="/assets/icones/icon_close.svg" alt="croix"
+                @click="isMenuOpen = ! isMenuOpen"
+                >
+            </div>
+
+            <nav class="menu__nav">
+                <ul class="menu__main">
+                    <li class="menu__main--element"><a href="replique.html">My name is bond...</a></li>
+                    <hr class="menu__main--line">
+                    <li class="menu__main--element"><a href="film.html">Skyfall</a></li>
+                    <hr class="menu__main--line">
+                    <li class="menu__main--element"><a href="realisateur.html">Sam Mendes</a></li>
+                    <hr class="menu__main--line">
+                    <li class="menu__main--element"><a href="musique.html">L'opening</a></li>
+                    <hr class="menu__main--line">
+                    <li class="menu__main--element"><a href="livre.html">Casino Royal</a></li>
+                </ul>
+                <ul class="menu__second">
+                    <li class="menu__second--element"><a href="filmographie.html">Filmographie</a></li>
+                    <li class="menu__second--element"><a href="bibliographie.html">Bibliographie</a></li>
+                </ul>
+            </nav>
+        
+            <section class="menu__footer">
+                <div class="footer__left">
+                    <nav class="footer__nav">
+                        <ul class="footer__nav--list">
+                            <li class="footer__nav--list-element"><a href="">Contact</a></li>
+                            <li class="footer__nav--list-element"><a href="">A propos</a></li>
+                            <li class="footer__nav--list-element"><a href="">Glossaire</a></li>                            <li class="footer__nav--list-element"><a href="">Autres Projets</a></li>
+                        </ul>
+                    </nav>
+                    <p class="footer__name">Mathis Liegeon MMI1 B2</p>
+                    <p class="footer__description">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+                </div>
+
+                <div class="footer__right">
+                    <button class="footer_language">Français</button>
+                    <img src="/assets/icones/icon_mmi.png" alt="logo MMI Montbéliard" class="footer__logo-mmi">
+                </div>
+            </section>
+            
+        </section>
+    </header>
+    
+    <main>
+        <header class="header">
+
+                <div class="header__title">
+                    <span class="header__title--background"></span>
+                    <h1 class="header__title--text">My name <br> is Bond, <br> James Bond...</h1>
+                </div>
+
+                <div class="header__content">
+                    <hr class="header__tiret">
+                    <!--<img class="header__tiret" src="" alt="séparation">-->
+                    <p class="header__intro">Retrouvez l’ensemble des films de la saga et de nombreuses informations concernant le plus beau chef d'œuvre de celle-ci : Skyfall</p>
+                    <img class="header__scroll-arrow" src="assets/icones/header_scroll-arrow.svg" alt="fleches de scroll">
+                </div>
+                <!--<img class="header__background" src="assets/img/home_header.webp" alt="Londres & James Bond">-->
+
+        </header> 
+
+        <section class="home-intro">
+            <section class="home-intro__element">
+                <h2 class="home-intro__element--title"> Skyfall, <br> la plus  grande réussite de la saga</h2>
+                <p class="home-intro__element--text">Réalisé par Sam Mendes, Skyfall est considéré comme le plus aboutit de tout les James Bond... </p>
+                <button class="home-intro__element--button button">acceder a l’articl</button>
+                <img src="assets/img/home_1.webp" alt="Daniel Craig as James Bond" class="home-intro__element--img">
+            </section>
+
+            <section class="home-intro__element">
+                <h2 class="home-intro__element--title">Une des repliques les plus emblématiques du cinema</h2>
+                <p class="home-intro__element--text">La réplique incarne toute l'élégance et l'intrigue de l'univers...</p>
+                <button class="home-intro__element--button button">acceder a l’article</button>
+                <img src="assets/img/home_2.webp" alt="Daniel Craig as James Bond" class="home-intro__element--img">
+            </section>
+
+            <section class="home-intro__element">
+                <h2 class="home-intro__element--title">un opening memorable</h2>
+                <p class="home-intro__element--text">Avec sa chanson, Adele réussi à capturer l'atmosphère sombre et la tension palpitante du film...</p>
+                <button class="home-intro__element--button button">acceder a l’article</button>
+                <img src="assets/img/home_3.webp" alt="Daniel Craig as James Bond" class="home-intro__element--img">
+            </section>
+
+            <section class="home-intro__element">
+                <h2 class="home-intro__element--title">Sam Mendes, 
+                        Un realisateur creatif</h2>
+                <p class="home-intro__element--text">Sam Mendes a apporté son talent exceptionnel à Skyfall, donnant au film une profondeur et une intensité unique…</p>
+                <button class="home-intro__element--button button">acceder a l’article</button>
+                <img src="assets/img/home_4.webp" alt="Sam Mendes" class="home-intro__element--img">
+            </section>
+
+            <section class="home-intro__element">
+                <h2 class="home-intro__element--title">Casino royale, Un premier chef-d’oeuvre</h2>
+                <p class="home-intro__element--text">L’oeuvre introduisant un personnage emblématique de la littérature et du cinéma d'espionnage...</p>
+                <button class="home-intro__element--button button">acceder a l’article</button>
+                <img src="assets/img/home_5.webp" alt="Casino Royal novel cover" class="home-intro__element--img">
+            </section>
+        </section>
+
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__nav--list">
+                    <li class="footer__nav--list-element"><a href="">Contact</a></li>
+                    <li class="footer__nav--list-element"><a href="">A propos</a></li>
+                    <li class="footer__nav--list-element"><a href="">Glossaire</a></li>
+                    <li class="footer__nav--list-element"><a href="">Autres Projets</a></li>
+                </ul>
+            </nav>
+            <p class="footer__name">Mathis Liegeon MMI1 B2</p>
+            <p class="footer__description">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+            <button class="footer_language">Français</button>
+            <img src="/assets/icones/icon_mmi.png" alt="logo MMI Montbéliard" class="footer__logo-mmi">
+        </footer>
+        
+    </main>
+</body>
+</html>
