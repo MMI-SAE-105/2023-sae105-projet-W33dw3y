@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le réalisateur</title>
+    <link rel="stylesheet" href="/src/css/vendors/styles.css">
+    <link rel="icon" href="/public/icons/icon_logo-007.svg">
+</head>
+<body class="body">
+    <header class="head">
+         <div class="head__content">
+            <a href="index.html" class="head__link">
+                <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
+            </a>
+            <div class="burger-content">
+                <input type="checkbox" id="toggle" class="burger-input">
+            <label @click="isMenuOpen = !  isMenuOpen" class="burger-label" for="toggle"></label>
+        </div>
+        </div>
+
+         <nav class="menu">
+            <div class="menu__header">
+                <a href="index.html" class="head__link">
+                    <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
+                </a>
+            </div>
+
+            <div class="menu__main">
+                <ul class="menu__main-list">
+                    <li class="menu__main-element"><a href="line.html" class="menu__main-link">My name is bond...</a></li>
+                    <li class="menu__main-element"><a href="film.html" class="menu__main-link">Skyfall</a></li>
+                    <li class="menu__main-element"><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
+                    <li class="menu__main-element"><a href="music.html" class="menu__main-link">L'opening</a></li>
+                    <li class="menu__main-element"><a href="book.html" class="menu__main-link">Casino royale</a></li>
+                </ul>
+                <ul class="menu__secodnary-list">
+                    <li class="menu__secondary-element"><a href="films.html" class="menu__secondary-link">Filmographie</a></li>
+                    <li class="menu__secondary-element"><a href="novels.html" class="menu__secondary-link">Bibliographie</a></li>
+                </ul>
+            </div>
+
+            <div class="menu__footer footer">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__element"><a href="contact.html" class="footer__element--link">Contact</a></li>
+                        <li class="footer__element"><a href="about.html" class="footer__element--link">A propos</a></li>
+                        <li class="footer__element"><a href="glossary.html" class="footer__element--link">Glossaire</a></li>
+                        <li class="footer__element"><a href="projects.html" class="footer__element--link">Autres projets</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer__langage">
+                    <a href="/en/index.html" class="footer__langage-btn">Français</a>
+                </div>
+
+                <section class="footer__legal-notice">
+                    <h2 class="footer__legal-notice--title">Mathis Liegeon MMI1 B2</h2>
+                    <p class="footer__legal-notice--text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+                </section>
+
+                <div class="footer__logo">
+                    <a href="http://formation.univ-fcomte.fr/but/metiers-du-multimedia-et-de-linternet" class="footer__logo--link">
+                        <img src="/public/icons/icon_logo-mmi.svg" alt="logo mmi" class="footer__logo--img">
+                    </a>
+                </div>
+            </div>
+         </nav>
+    </header>
+
+    <main class="main">
+        <section class="header">
+            <h1 class="header__title">La Réplique Iconique : « My Name is Bond, James Bond »</h1>
+            <img src="/public/img/img_line_header.webp" alt="Daniel Craig" class="header__background-img">
+            <p class="header__text">Découvrez la réplique légendaire de la saga James Bond qui incarne l'élégance, le mystère, et le charme de l'agent secret le plus célèbre du cinéma.</p>
+            <div class="header__scroll-arrow"></div>
+        </section>
+
+        <article class="article">
+            <h1 class="article__title">Une Introduction Mémorable</h1>
+            <p class="article__text">Dans le monde du cinéma, certaines répliques deviennent emblématiques et transcendent le statut de simple mot pour devenir des icônes cinématographiques à part entière. Tout comme le fameux “Je suis ton père” de Dark Vador, « My name is Bond, Jame Bond » est devenu culte au cours des années. Une réplique incarnant le mystère, le danger et à la fois une classe incontournable.</p>
+            <img src="/public/img/img_producer_article1.webp" alt="Affiche du film American Beauty" class="article__img">
+            <p class="article__img-description">Première réussite de Sam mendes</p>
+        </article>
+        <article class="article">
+            <h1 class="article__title">L'Origine de la Légende</h1>
+            <p class="article__text">Cette réplique a été prononcée pour la première fois en 1962 dans le premier film de la franchise : James Bond contre Dr No. L’acteur Sean Connery prononce la réplique à merveille et annonce l'arrivée d'un mystérieux espion à l’écran, prêt à tout pour la couronne britannique. Cette réplique a le pouvoir d’évoquer un mystère, un charme intemporel et poignant grâce à l’interprétation des acteurs tout le long de la saga. Chacun la prononçant à sa manière, en ajoutant à chaque fois leur interprétation au personnage emblématique qu’est James Bond.</p>
+            <img src="/public/img/img_line_article1.webp" alt="Sean connery" class="article__img">
+            <p class="article__img-description">Première utilisation de la réplique par Sean Connery</p>
+        </article>
+        <article class="article">
+            <h1 class="article__title">L'Évolution de James Bond</h1>
+            <p class="article__text">En effet au fil des années différents acteurs ont interprété James Bond. La réplique « My Name is Bond, James Bond » est devenu récurrente dans chacun des films. De Sean Connery à Daniel Craig, en passant par Roger Moore, Pierce Brosnan, et d'autres, la réplique a évolué tout en conservant son charme immuable et continue de faire son effet dans les salles de cinéma.</p>
+            <img src="/public/img/img_line_article2.webp" alt="Pierce Brosnan" class="article__img">
+            <p class="article__img-description">Pierce Brosnan en tant que Bond</p>
+        </article>
+        <a href="film.html" class="article__button">Voir les films avec Daniel Craig</a>
+        <article class="article">
+            <h1 class="article__title">Un Symbole de la Culture Populaire</h1>
+            <p class="article__text">Comme dit précédemment, la réplique est devenue culte au cours des années et est devenue bien plus qu’une introduction au personnage. Elle représente tout l’univers de la saga, de l’élégance du personnage en passant par le charme des films. Cette phrase continue encore aujourd’hui de captiver les spectateurs et de les plonger dans l’univers de la saga.</p>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__element"><a href="contact.html" class="footer__element--link">Contact</a></li>
+                    <li class="footer__element"><a href="about.html" class="footer__element--link">A propos</a></li>
+                    <li class="footer__element"><a href="glossary.html" class="footer__element--link">Glossaire</a></li>
+                    <li class="footer__element"><a href="projects.html" class="footer__element--link">Autres projets</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__langage">
+                <a href="/en/index.html" class="footer__langage-btn">Français</a>
+            </div>
+
+            <section class="footer__legal-notice">
+                <h2 class="footer__legal-notice--title">Mathis Liegeon MMI1 B2</h2>
+                <p class="footer__legal-notice--text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+            </section>
+
+            <div class="footer__logo">
+                <a href="http://formation.univ-fcomte.fr/but/metiers-du-multimedia-et-de-linternet" class="footer__logo--link">
+                    <img src="/public/icons/icon_logo-mmi.svg" alt="logo mmi" class="footer__logo--img">
+                </a>
+            </div>
+    </footer>
+ 
+</body>
+</html>
