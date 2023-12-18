@@ -12,28 +12,21 @@ Soyez attentifs à l'ordre d'import :
 */
 
 /* Code fourni par Google Font pour l'utilisation de ces polices de caractères */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
 
 /* Vendors */
-@import url(vendors/normalize.css);
+@import url(/src/css/vendors/normalize.css);
+@import url(/src/css/vendors/styles.css);
 
 /* Utils */
-@import url(utils/variables.css);
+@import url(/src/css/utils/variables.css);
+@import url(/src/css/utils/keyframes.css);
 
 /* Base */
-@import url(base/media.css);
-@import url(base/main.css);
+@import url(/src/css/base/main.css);
+@import url(/src/css/base/media.css);
 
 /* Layout */
-@import url(layout/header.css);
-@import url(layout/footer.css);
+@import url(/src/css/layout/footer.css);
+@import url(/src/css/layout/header.css);
 
 /* Components */
-@import url(components/hero.css);
-@import url(components/introduction.css);
-@import url(components/button.css);
-@import url(components/menu.css);
