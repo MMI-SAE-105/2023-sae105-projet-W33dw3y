@@ -1,0 +1,79 @@
+[
+    {
+        "img":"/public/img/img_projects-1.webp",
+        "alt":"affiche du film La Vague",
+        "nom":"Samuel Charasse",
+        "projet":"Abyssal Wave",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-2.webp",
+        "alt": "Affiche du film La ligne verte",
+        "nom": "Angelo Bosetti",
+        "projet": "The long Line",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-3.webp",
+        "alt": "Affiche du film Le labyrinthe le remède mortel",
+        "nom": "Liloue Guyot",
+        "projet": "Ton futur est entre tes mains",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-4.webp",
+        "alt": "Affiche du film Spide-man Across The spider verse",
+        "nom": "Rayane Damage",
+        "projet": "Across the spider-web",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-5.webp",
+        "alt": "Affiche du film Le roi lion",
+        "nom": "Tasnim Kebaili",
+        "projet": "Hakuna matata",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-6.webp",
+        "alt": "Affiche du film Avatar",
+        "nom": "Marion Pautrat",
+        "projet": "Kill this rabbit",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-7.webp",
+        "alt": "Affiche du film Oppenheimer",
+        "nom": "Kalan Yilmaz",
+        "projet": "Oppenmind",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-8.webp",
+        "alt": "Affiche du film Barbie",
+        "nom": "Oli Thamilselvan",
+        "projet": "Impossible to be her",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-9.webp",
+        "alt": "Affiche du film Le pianiste",
+        "nom": "Pierre Gachot",
+        "projet": "Le pianiste",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-10.webp",
+        "alt": "Affiche du film Princesse mononoke",
+        "nom": "Imrane Qerchi",
+        "projet": "Unclouded by hate",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-11.webp",
+        "alt": "Affiche du film Oppenheimer",
+        "nom": "Tony morreti",
+        "projet": "Oppenheimer",
+        "href": ""
+    }
+]
