@@ -2,7 +2,7 @@
 - NOM : Liegeon
 - PRÉNOM : Mathis
 - URL du site :
-- URL FIGMA : 
+- URL FIGMA : https://www.figma.com/file/6OJSpxAoEY7cnHhWOdTued/Maquette-projet-S1-Rendu?type=design&node-id=147%3A3&mode=design&t=1VAOfGsF5UmIggou-1
 
 # Structure de départ pour le projet individuel.
 
