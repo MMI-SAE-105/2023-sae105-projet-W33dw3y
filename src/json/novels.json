@@ -1,0 +1,86 @@
+[
+    {
+        "img": "/public/img/img_novel-1.webp",
+        "alt": "Couverture du livre Casino Royale",
+        "title":"Casino royale",
+        "date":"1953"
+    },
+    {
+        "img": "/public/img/img_novel-2.webp",
+        "alt": "Couverture du livre Live and let die",
+        "title": "Live and let die",
+        "date": "1954"
+    },
+    {
+        "img": "/public/img/img_novel-3.webp",
+        "alt": "Couverture du livre moonraker",
+        "title": "Moonraker",
+        "date": "1955"
+    },
+    {
+        "img": "/public/img/img_novel-4.webp",
+        "alt": "Couverture du livre diamond are forever",
+        "title": "Diamond are forever",
+        "date": "1956 "
+    },
+    {
+        "img": "/public/img/img_novel-5.webp",
+        "alt": "Couverture du livre from russia with love",
+        "title": "From russia with love",
+        "date": "1957"
+    },
+    {
+        "img": "/public/img/img_novel-6.webp",
+        "alt": "Couverture du livre DR. no",
+        "title": "Dr. no",
+        "date": "1958"
+    },
+    {
+        "img": "/public/img/img_novel-7.webp",
+        "alt": "Couverture du livre goldfinger",
+        "title": "Goldfinger",
+        "date": "1959"
+    },
+    {
+        "img": "/public/img/img_novel-8.webp",
+        "alt": "Couverture du livre for your eyes only",
+        "title": "For your eyes only",
+        "date": "1959"
+    },
+    {
+        "img": "/public/img/img_novel-9.webp",
+        "alt": "Couverture du livre thunderball",
+        "title": "Thunderball",
+        "date": "1961"
+    },
+    {
+        "img": "/public/img/img_novel-10.webp",
+        "alt": "Couverture du livre the spy who loved me",
+        "title": "The spy who loved me",
+        "date": "1962"
+    },
+    {
+        "img": "/public/img/img_novel-11.webp",
+        "alt": "Couverture du livre on her majesty's secret service",
+        "title": "On her majesty's secret service",
+        "date": "1963"
+    },
+    {
+        "img": "/public/img/img_novel-12.webp",
+        "alt": "Couverture du livre you only live twice",
+        "title": "You only live twice",
+        "date": "1964"
+    },
+    {
+        "img": "/public/img/img_novel-13.webp",
+        "alt": "Couverture du livre the man with the golden gun",
+        "title": "The man with the golden gun",
+        "date": "1965"
+    },
+    {
+        "img": "/public/img/img_novel-14.webp",
+        "alt": "Couverture du livre octopussy & the living daylights",
+        "title": "Octopussy & the living daylights",
+        "date": "1966"
+    }
+]
