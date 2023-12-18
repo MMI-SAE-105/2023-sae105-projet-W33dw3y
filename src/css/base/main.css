@@ -1,9 +1,39 @@
+/*boxes*/
 *,
 ::before,
 ::after {
     box-sizing: border-box;
 }
 
-body {
-    background-color: black;
+/*texte*/
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+strong {
+    font-weight: normal;
+}
+
+/*links*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*lists*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
