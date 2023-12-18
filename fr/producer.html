@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le réalisateur</title>
+    <link rel="stylesheet" href="/src/css/vendors/styles.css">
+    <link rel="icon" href="/public/icons/icon_logo-007.svg">
+</head>
+<body class="body">
+    <header class="head">
+         <div class="head__content">
+            <a href="index.html" class="head__link">
+                <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
+            </a>
+            <div class="burger-content">
+                <input type="checkbox" id="toggle" class="burger-input">
+            <label @click="isMenuOpen = !  isMenuOpen" class="burger-label" for="toggle"></label>
+        </div>
+        </div>
+
+         <nav class="menu">
+            <div class="menu__header">
+                <a href="index.html" class="head__link">
+                    <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
+                </a>
+            </div>
+
+            <div class="menu__main">
+                <ul class="menu__main-list">
+                    <li class="menu__main-element"><a href="line.html" class="menu__main-link">My name is bond...</a></li>
+                    <li class="menu__main-element"><a href="film.html" class="menu__main-link">Skyfall</a></li>
+                    <li class="menu__main-element"><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
+                    <li class="menu__main-element"><a href="music.html" class="menu__main-link">L'opening</a></li>
+                    <li class="menu__main-element"><a href="book.html" class="menu__main-link">Casino royale</a></li>
+                </ul>
+                <ul class="menu__secodnary-list">
+                    <li class="menu__secondary-element"><a href="films.html" class="menu__secondary-link">Filmographie</a></li>
+                    <li class="menu__secondary-element"><a href="novels.html" class="menu__secondary-link">Bibliographie</a></li>
+                </ul>
+            </div>
+
+            <div class="menu__footer footer">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__element"><a href="contact.html" class="footer__element--link">Contact</a></li>
+                        <li class="footer__element"><a href="about.html" class="footer__element--link">A propos</a></li>
+                        <li class="footer__element"><a href="glossary.html" class="footer__element--link">Glossaire</a></li>
+                        <li class="footer__element"><a href="projects.html" class="footer__element--link">Autres projets</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer__langage">
+                    <a href="/en/index.html" class="footer__langage-btn">Français</a>
+                </div>
+
+                <section class="footer__legal-notice">
+                    <h2 class="footer__legal-notice--title">Mathis Liegeon MMI1 B2</h2>
+                    <p class="footer__legal-notice--text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+                </section>
+
+                <div class="footer__logo">
+                    <a href="http://formation.univ-fcomte.fr/but/metiers-du-multimedia-et-de-linternet" class="footer__logo--link">
+                        <img src="/public/icons/icon_logo-mmi.svg" alt="logo mmi" class="footer__logo--img">
+                    </a>
+                </div>
+            </div>
+         </nav>
+    </header>
+
+    <main class="main">
+        <section class="header">
+            <h1 class="header__title">Sam Mendes : Le Maestro derrière Skyfall</h1>
+            <img src="/public/img/img_producer_header.webp" alt="Daniel Craig et Sam Mendes" class="header__background-img">
+            <p class="header__text">Sam Mendes, réalisateur acclamé, a laissé une empreinte indélébile dans l'histoire du cinéma avec Skyfall.</p>
+            <div class="header__scroll-arrow"></div>
+        </section>
+
+        <article class="article">
+            <h1 class="article__title">Le Parcours Brillant de Sam Mendes</h1>
+            <p class="article__text">Sam Mendes est un réalisateur britannique renommé, né le 1er août à Reading en Angleterre. Il a étudié dans la prestigieuse université de Cambridge avant de faireses débuts dans le théâtre à Londres. Sa carrière de cinéma s’est envolée avec son film American Beauty en 1999. Celui-ci lui à valu l’Oscar du meilleur réalisateur. Cette reconnaissance lui ouvre alors de nombreuses voies dans le monde du cinéma.</p>
+            <img src="/public/img/img_producer_article1.webp" alt="Affiche du film American Beauty" class="article__img">
+            <p class="article__img-description">Première réussite de Sam mendes</p>
+        </article>
+        <article class="article">
+            <h1 class="article__title">L'Impact d'American Beauty</h1>
+            <p class="article__text">American Beauty a marqué un tournant dans la carrière de Sam Mendes, ce fut son premier succès en tant que réalisateur. Le film porte sur les différents dysfonctionnements sociaux et familiaux tout en proposant un regard critique sur la société américaine. Le succès du film a établi Sam Mendes comme un réalisateur capable de captiver le public tout en proposant une profonde réflexion.</p>
+        </article>
+        <article class="article">
+            <h1 class="article__title">Sam Mendes et James Bond : Une Fusion Magistrale</h1>
+            <p class="article__text">En 2012, Sam Mendes apporte une vision de la saga différente des précédents films de la franchise avec Skyfall. Sa créativité a permis de rendre un film équilibré entre les éléments classiques de Bond avec une exploration plus profonde du personnage en montrant Bond vulnérable grâce à son méchant charismatique.</p>
+        </article>
+        <a href="film.html" class="article__button">A propos du film</a>
+        <article class="article">
+            <h1 class="article__title">L'Héritage de Sam Mendes</h1>
+            <p class="article__text">En plus de Skyfall, Sam Mendes a réalisé d'autres films à succès comme Les noces rebelles (2008), Les sentiers de la perdition (2002) ou encore le fabuleux 1917 (2019).</p>
+            <p class="article__text">Le travail du réalisateur est caractérisé par un storytelling poignant, une direction artistique magistrale et des performances exceptionnelles permettant de captiver son public au plus haut point grâce à des récits plus puissants les uns que les autres.</p>
+            <img src="/public/img/img_producer_article2.webp" alt="Photo de Sam Mendes" class="article__img">
+            <p class="article__img-description">Sam Mendes</p>
+        </article>
+        <article class="article">
+            <h1 class="article__title">Conclusion</h1>
+            <p class="article__text">Sam Mendes a su laisser un impact important et durable dans l’industrie du cinéma moderne grâce à sa carrière éblouissante et à sa réalisation de nombreux films touchant comme Skyfall. Son héritage cinématographique continue à inspirer de nouveaux réalisateurs grâce à sa vision créative, sa narration exceptionnelle et à son exploration profonde des personnages. Grâce à Skyfall, il a permis d'élever le film d’espionnage à un autre niveau qui a été impossible à atteindre pour les Opus suivants de la saga.</p>
+        </article>
+        <a href="films.html" class="article__button">Voir les autres films de la franchise</a>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__element"><a href="contact.html" class="footer__element--link">Contact</a></li>
+                    <li class="footer__element"><a href="about.html" class="footer__element--link">A propos</a></li>
+                    <li class="footer__element"><a href="glossary.html" class="footer__element--link">Glossaire</a></li>
+                    <li class="footer__element"><a href="projects.html" class="footer__element--link">Autres projets</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__langage">
+                <a href="/en/index.html" class="footer__langage-btn">Français</a>
+            </div>
+
+            <section class="footer__legal-notice">
+                <h2 class="footer__legal-notice--title">Mathis Liegeon MMI1 B2</h2>
+                <p class="footer__legal-notice--text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+            </section>
+
+            <div class="footer__logo">
+                <a href="http://formation.univ-fcomte.fr/but/metiers-du-multimedia-et-de-linternet" class="footer__logo--link">
+                    <img src="/public/icons/icon_logo-mmi.svg" alt="logo mmi" class="footer__logo--img">
+                </a>
+            </div>
+    </footer>
+ 
+</body>
+</html>
