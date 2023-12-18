@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Royal</title>
+    <link rel="stylesheet" href="/src/css/vendors/styles.css">
+    <link rel="icon" href="/public/icons/icon_logo-007.svg">
+</head>
+<body class="body">
+    <header class="head">
+         <div class="head__content">
+            <a href="index.html" class="head__link">
+                <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
+            </a>
+            <div class="burger-content">
+                <input type="checkbox" id="toggle" class="burger-input">
+            <label @click="isMenuOpen = !  isMenuOpen" class="burger-label" for="toggle"></label>
+        </div>
+        </div>
+
+         <nav class="menu">
+            <div class="menu__header">
+                <a href="index.html" class="head__link">
+                    <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
+                </a>
+            </div>
+
+            <div class="menu__main">
+                <ul class="menu__main-list">
+                    <li class="menu__main-element"><a href="line.html" class="menu__main-link">My name is bond...</a></li>
+                    <li class="menu__main-element"><a href="film.html" class="menu__main-link">Skyfall</a></li>
+                    <li class="menu__main-element"><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
+                    <li class="menu__main-element"><a href="music.html" class="menu__main-link">L'opening</a></li>
+                    <li class="menu__main-element"><a href="book.html" class="menu__main-link">Casino royale</a></li>
+                </ul>
+                <ul class="menu__secodnary-list">
+                    <li class="menu__secondary-element"><a href="films.html" class="menu__secondary-link">Filmographie</a></li>
+                    <li class="menu__secondary-element"><a href="novels.html" class="menu__secondary-link">Bibliographie</a></li>
+                </ul>
+            </div>
+
+            <div class="menu__footer footer">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__element"><a href="contact.html" class="footer__element--link">Contact</a></li>
+                        <li class="footer__element"><a href="about.html" class="footer__element--link">A propos</a></li>
+                        <li class="footer__element"><a href="glossary.html" class="footer__element--link">Glossaire</a></li>
+                        <li class="footer__element"><a href="projects.html" class="footer__element--link">Autres projets</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer__langage">
+                    <a href="/en/index.html" class="footer__langage-btn">Français</a>
+                </div>
+
+                <section class="footer__legal-notice">
+                    <h2 class="footer__legal-notice--title">Mathis Liegeon MMI1 B2</h2>
+                    <p class="footer__legal-notice--text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+                </section>
+
+                <div class="footer__logo">
+                    <a href="http://formation.univ-fcomte.fr/but/metiers-du-multimedia-et-de-linternet" class="footer__logo--link">
+                        <img src="/public/icons/icon_logo-mmi.svg" alt="logo mmi" class="footer__logo--img">
+                    </a>
+                </div>
+            </div>
+         </nav>
+    </header>
+
+    <main class="main">
+        <section class="header">
+            <h1 class="header__title">L'Étincelle qui a Enflammé la Légende Bond</h1>
+            <img src="/public/img/img_book_header.webp alt="Daniel Craig" class="header__background-img">
+            <p class="header__text">Découvrez l'origine de la franchise James Bond dans un roman d'espionnage qui a donné naissance à l'un des agents secrets les plus emblématiques de la littérature et du cinéma.</p>
+            <div class="header__scroll-arrow"></div>
+        </section>
+
+        <article class="article">
+            <h1 class="article__title">Ian Fleming : L'Homme derrière Bond</h1>
+            <p class="article__text">Ian Fleming, né le 28 mai 1908 à Londres, était un écrivain et journaliste britannique. Sa carrière littéraire a pris une nouvelle dimension en 1953 avec la publication de son premier roman, Casino Royale,qui a introduit le monde à l'agent secret James Bond. Étant un ancien officier du renseignement naval, il a puisé dans ses propres expériences et connaissances pour créer le personnage de Bond et son univers.</p>
+            <img src="/public/img/img_book_article1.webp" alt="Ian fleming" class="article__img">
+            <p class="article__img-description">Ian fleming</p>
+        </article>
+        <article class="article">
+            <h1 class="article__title">Casino Royale : L'Origine de l'Espionnage Élégant</h1>
+            <p class="article__text">Casino Royale est le premier roman de la série James Bond de Ian Fleming. L'histoire suit l'agent secret James Bond, connu sous le code "007," alors qu'il est envoyé en mission pour affronter Le Chiffre, un dangereux banquier russe. Le but de la mission est, lors d’une partie de Poker, d'empêcher Le Chiffre de financer des activités terroristes à travers des jeux de pouvoir entre les deux camps. Le MI6 et les organisations terroristes.</p>
+            <a href="novels.html" class="article__button">Voir les romans</a>
+        </article>
+        <article class="article">
+            <h1 class="article__title">De la Page à l'Écran : Casino Royale au Cinéma</h1>
+            <p class="article__text">L’impact de Casino Royale ne s’est pas limité à la littérature. En 2006, le roman a été adapté au cinéma, avec un changement d’acteur. La saga passant de Pierce Brosnan à Daniel Craig, ce fut un enjeux important pour la franchise. Le film, réaliste et sombre, aux actions spectaculaires, à été salué par la critique et s'inscrit comme l’un des meilleurs James Bond. Le succès de Casino Royale a donc conduit aux films que l’on connait tous : Quantum Of Solace, Skyfall, Spectre et dernièrement No Time To Die. (liens filmographie)</p>
+            <img src="/public/img/img_line_article2.webp" alt="Daniel Craig as James Bond" class="article__img">
+            <p class="article__img-description">Daniel Craig dans Casino Royale</p>
+        </article>
+        <article class="article">
+            <h1 class="article__title">L'Origine de l'Épopée James Bond</h1>
+            <p class="article__text">En résumé, Casino Royale de Ian Fleming est le point de départ de l’épopée James Bond. L’auteur à su créer un univers d’espionnage élégant, captivant et plein d’intrigues palpitantes. Le roman à introduit un personnage légendaire du cinéma et une série de films cultes depuis 1958. Casino Royale finalement est bien plus qu'un simple roman d'espionnage, c'est l'étincelle qui a enflammé la légende James Bond.</p>
+        </article>
+    </main> 
+
+    <footer class="footer">
+        <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__element"><a href="contact.html" class="footer__element--link">Contact</a></li>
+                    <li class="footer__element"><a href="about.html" class="footer__element--link">A propos</a></li>
+                    <li class="footer__element"><a href="glossary.html" class="footer__element--link">Glossaire</a></li>
+                    <li class="footer__element"><a href="projects.html" class="footer__element--link">Autres projets</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__langage">
+                <a href="/en/index.html" class="footer__langage-btn">Français</a>
+            </div>
+
+            <section class="footer__legal-notice">
+                <h2 class="footer__legal-notice--title">Mathis Liegeon MMI1 B2</h2>
+                <p class="footer__legal-notice--text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+            </section>
+
+            <div class="footer__logo">
+                <a href="http://formation.univ-fcomte.fr/but/metiers-du-multimedia-et-de-linternet" class="footer__logo--link">
+                    <img src="/public/icons/icon_logo-mmi.svg" alt="logo mmi" class="footer__logo--img">
+                </a>
+            </div>
+    </footer>
+ 
+</body>
+</html>
