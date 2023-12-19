@@ -3,13 +3,15 @@
     position: fixed;
     height: 100vh;
 
-    right: -200%;
+    right: -300%;
     transition: right 300ms ease-in-out;
+
+    padding-top: 5rem;
 
     display: flex;
     flex-direction: column;
 
-    z-index: 3;
+    z-index: 2;
 }
 
 .menu-actif {
