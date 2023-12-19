@@ -10,10 +10,11 @@
 
     background: linear-gradient(rgba(255, 255, 255, 0) 20%, #000 55%);
     color: #fff;
+    margin-top: 150px;
 }
 
 .header__background-img {
-    top: 50px;
+    top: 3rem;
     position: absolute;
     z-index: -1;
 }
