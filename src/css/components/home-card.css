@@ -106,3 +106,12 @@ body {
     position: absolute;
     top: 0;
 }
+
+.card__title-content3::before {
+    height: 120%;
+}
+
+.card__title-content5::before {
+    height: 130%;
+    top:-10px;
+}
