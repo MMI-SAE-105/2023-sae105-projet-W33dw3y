@@ -72,6 +72,8 @@ body {
     width: 50%;
     margin: 2rem 0rem;
     padding-left: 1rem;
+    font-family: 'Khula', sans-serif;
+    font-size: var(--introduction);
 }
 
 .card__text-right {
@@ -83,6 +85,8 @@ body {
 .card__button {
     color: #fff;
     border: 1px solid #fff;
+    font-size: var(--body-2);
+    font-family: 'Koulen', sans-serif;
 }
 
 .card__button-right {

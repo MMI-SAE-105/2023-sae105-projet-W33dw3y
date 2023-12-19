@@ -49,6 +49,9 @@
 .header__text {
     text-align: center;
     position: relative;
+    font-size: var(--body-1);
+    font-family: 'Khand', sans-serif;
+    font-weight: lighter;
 
     padding: 0rem 1rem;
 }
