@@ -1,0 +1,40 @@
+.caroussel {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.caroussel__container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type:x mandatory;
+}
+
+.caroussel__screen {
+    width: 80%;
+    flex: none;
+    scroll-snap-align: center;
+    border-bottom: 1px solid #000;
+}
+
+.caroussel__template {
+    width: 100%;
+}
+
+.caroussel__img {
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.caroussel__figure {
+    margin: 0;
+    width: 80vw;
+    animation: up linear forwards;
+    animation-timeline: view(x);
+}

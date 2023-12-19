@@ -85,19 +85,20 @@
         return await resp.json();
         },
         }">
-            <template x-for="img of tabnovel">
-                <div class="caroussel__ecran">
-                    <figure>
-                        <img 
-                        class="caroussel__img"
-                        :src="img.img" 
-                        :alt="img.alt" 
-                        >
-                    </figure>
-                    <span x-text="img.title"></span>
-                    <span x-text="img.date"></span>
-                </div>
-            </template>
+            <div class="caroussel__container">
+                <template class="caroussel__template" x-for="img of tabnovel">
+                    <div class="caroussel__screen">
+                        <figure class="caroussel__figure">
+                            <img
+                            class="caroussel__img"
+                            :src="img.img"
+                            :alt="img.alt"                             >
+                        </figure>
+                        <span x-text="img.title"></span>
+                        <span x-text="img.date"></span>
+                    </div>
+                </template>
+            </div>
         </div>
 
     </main>
