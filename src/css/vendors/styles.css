@@ -12,6 +12,7 @@ Soyez attentifs à l'ordre d'import :
 */
 
 /* Code fourni par Google Font pour l'utilisation de ces polices de caractères */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Khand&family=Khula&family=Koulen&family=Playfair+Display+SC&display=swap');
 
 /* Vendors */
 @import url(/src/css/vendors/normalize.css);
@@ -32,3 +33,4 @@ Soyez attentifs à l'ordre d'import :
 /* Components */
 @import url(/src/css/components/header.css);
 @import url(/src/css/components/menu.css);
+@import url(/src/css/components/home-card.css);
