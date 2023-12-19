@@ -1,0 +1,29 @@
+.menu {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    height: 100vh;
+
+    right: -200%;
+    transition: right 300ms ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-actif {
+    right: 0;
+}
+
+.menu__main-link,
+.menu__secondary-link,
+.footer__element--link,
+.footer__langage-btn,
+.footer {
+    color: #f1f1f1;
+}
+
+
+
+.menu__footer {
+    align-self: flex-end;
+}

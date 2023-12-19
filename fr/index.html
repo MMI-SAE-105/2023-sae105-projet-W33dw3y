@@ -6,9 +6,12 @@
     <title>All About Skyfall</title>
     <link rel="stylesheet" href="/src/css/vendors/styles.css">
     <link rel="icon" href="/public/icons/icon_logo-007.svg">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
 </head>
 <body class="body">
-    <header class="head">
+    <header class="head" x-data="{isMenuOpen : false}">
          <div class="head__content">
             <a href="index.html" class="head__link">
                 <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
@@ -19,12 +22,10 @@
         </div>
         </div>
 
-         <nav class="menu">
-            <div class="menu__header">
-                <a href="index.html" class="head__link">
-                    <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
-                </a>
-            </div>
+         <nav class="menu"
+         :class="{'menu-actif' : isMenuOpen}"
+         >
+           
 
             <div class="menu__main">
                 <ul class="menu__main-list">
@@ -34,7 +35,7 @@
                     <li class="menu__main-element"><a href="music.html" class="menu__main-link">L'opening</a></li>
                     <li class="menu__main-element"><a href="book.html" class="menu__main-link">Casino royale</a></li>
                 </ul>
-                <ul class="menu__secodnary-list">
+                <ul class="menu__secondary-list">
                     <li class="menu__secondary-element"><a href="films.html" class="menu__secondary-link">Filmographie</a></li>
                     <li class="menu__secondary-element"><a href="novels.html" class="menu__secondary-link">Bibliographie</a></li>
                 </ul>
