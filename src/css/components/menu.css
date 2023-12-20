@@ -71,33 +71,12 @@
 
 
 /* Mise en couleur pour la naviguation */
-.menu__main-line-title {
-    color: #fff;
-    -webkit-text-stroke: 0px;
-
-}
-
-.menu__main-film-title {
-    color: #fff;
-    -webkit-text-stroke: 0px;
-
-}
-
-.menu__main-producer-title {
-    color: #fff;
-    -webkit-text-stroke: 0px;
-
-}
-
-.menu__main-music-title {
-    color: #fff;
-    -webkit-text-stroke: 0px;
-
-}
-
+.menu__main-line-title,
+.menu__main-film-title,
+.menu__main-producer-title,
+.menu__main-music-title,
 .menu__main-book-title {
     color: #fff;
     -webkit-text-stroke: 0px;
-
 }
 

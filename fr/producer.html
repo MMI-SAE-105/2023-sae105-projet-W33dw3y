@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{isMenuOpen : false}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le réalisateur</title>
     <link rel="stylesheet" href="/src/css/vendors/styles.css">
     <link rel="icon" href="/public/icons/icon_logo-007.svg">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
-<body class="body">
+<body class="body" :class="{'noscroll': isMenuOpen}">
     <header class="head">
          <div class="head__content">
             <a href="index.html" class="head__link">
@@ -19,18 +20,13 @@
         </div>
         </div>
 
-         <nav class="menu">
-            <div class="menu__header">
-                <a href="index.html" class="head__link">
-                    <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
-                </a>
-            </div>
+         <nav class="menu"  :class="{'menu-actif' : isMenuOpen}">
 
             <div class="menu__main">
                 <ul class="menu__main-list">
                     <li class="menu__main-element"><a href="line.html" class="menu__main-link">My name is bond...</a></li>
                     <li class="menu__main-element"><a href="film.html" class="menu__main-link">Skyfall</a></li>
-                    <li class="menu__main-element"><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
+                    <li class="menu__main-element"><a href="producer.html" class="menu__main-link menu__main-producer-title">Sam Mendes</a></li>
                     <li class="menu__main-element"><a href="music.html" class="menu__main-link">L'opening</a></li>
                     <li class="menu__main-element"><a href="book.html" class="menu__main-link">Casino royale</a></li>
                 </ul>
@@ -70,10 +66,17 @@
 
     <main class="main">
         <section class="header">
-            <h1 class="header__title">Sam Mendes : Le Maestro derrière Skyfall</h1>
+            <div class="header__title-container">
+                <h1 class="header__title">Sam Mendes : </h1>
+                <h1 class="header__title">Le Maestro</h1>
+                <h1 class="header__title">derrière Skyfall</h1>
+                <div class="header__title-background"></div>
+            </div>
             <img src="/public/img/img_producer_header.webp" alt="Sam Mendes" class="header__background-img">
             <p class="header__text">Sam Mendes, réalisateur acclamé, a laissé une empreinte indélébile dans l'histoire du cinéma avec Skyfall.</p>
-            <div class="header__scroll-arrow"></div>
+            <a href="#topbody" class="header__scroll-link">
+                <div id="topbody" class="header__scroll-arrow"></div>
+            </a>
         </section>
 
         <article class="article">
@@ -90,7 +93,7 @@
             <h1 class="article__title">Sam Mendes et James Bond : Une Fusion Magistrale</h1>
             <p class="article__text">En 2012, Sam Mendes apporte une vision de la saga différente des précédents films de la franchise avec Skyfall. Sa créativité a permis de rendre un film équilibré entre les éléments classiques de Bond avec une exploration plus profonde du personnage en montrant Bond vulnérable grâce à son méchant charismatique.</p>
         </article>
-        <a href="film.html" class="article__button">A propos du film</a>
+        <a href="film.html" class="article__button button">A propos du film</a>
         <article class="article">
             <h1 class="article__title">L'Héritage de Sam Mendes</h1>
             <p class="article__text">En plus de Skyfall, Sam Mendes a réalisé d'autres films à succès comme Les noces rebelles (2008), Les sentiers de la perdition (2002) ou encore le fabuleux 1917 (2019).</p>
@@ -102,7 +105,7 @@
             <h1 class="article__title">Conclusion</h1>
             <p class="article__text">Sam Mendes a su laisser un impact important et durable dans l’industrie du cinéma moderne grâce à sa carrière éblouissante et à sa réalisation de nombreux films touchant comme Skyfall. Son héritage cinématographique continue à inspirer de nouveaux réalisateurs grâce à sa vision créative, sa narration exceptionnelle et à son exploration profonde des personnages. Grâce à Skyfall, il a permis d'élever le film d’espionnage à un autre niveau qui a été impossible à atteindre pour les Opus suivants de la saga.</p>
         </article>
-        <a href="films.html" class="article__button">Voir les autres films de la franchise</a>
+        <a href="films.html" class="article__button button">Voir les autres films de la franchise</a>
     </main>
 
     <footer class="footer">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{isMenuOpen : false}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="/src/css/vendors/styles.css">
     <link rel="icon" href="/public/icons/icon_logo-007.svg">
     <script defer src="https://unpkg.com/alpinejs"></script>
-
 </head>
-<body class="body">
+<body class="body" :class="{'noscroll': isMenuOpen}">
     <header class="head">
          <div class="head__content">
             <a href="index.html" class="head__link">
@@ -21,12 +20,7 @@
         </div>
         </div>
 
-         <nav class="menu">
-            <div class="menu__header">
-                <a href="index.html" class="head__link">
-                    <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
-                </a>
-            </div>
+         <nav class="menu" :class="{'menu-actif' : isMenuOpen}">
 
             <div class="menu__main">
                 <ul class="menu__main-list">
@@ -34,7 +28,7 @@
                     <li class="menu__main-element"><a href="film.html" class="menu__main-link">Skyfall</a></li>
                     <li class="menu__main-element"><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
                     <li class="menu__main-element"><a href="music.html" class="menu__main-link">L'opening</a></li>
-                    <li class="menu__main-element"><a href="book.html" class="menu__main-link">Casino royale</a></li>
+                    <li class="menu__main-element"><a href="book.html" class="menu__main-link menu__main-book-title">Casino royale</a></li>
                 </ul>
                 <ul class="menu__secodnary-list">
                     <li class="menu__secondary-element"><a href="films.html" class="menu__secondary-link">Filmographie</a></li>
@@ -72,10 +66,18 @@
 
     <main class="main">
         <section class="header">
-            <h1 class="header__title">L'Étincelle qui a Enflammé la Légende Bond</h1>
+            <div class="header__title-container">
+                <h1 class="header__title">L'Étincelle qui a</h1>
+                <h1 class="header__title">Enflammé la</h1>
+                <h1 class="header__title">Légende Bond</h1>
+                <div class="header__title-background"></div>
+            </div>
+
             <img src="/public/img/img_book_header.webp" alt="Daniel Craig" class="header__background-img">
             <p class="header__text">Découvrez l'origine de la franchise James Bond dans un roman d'espionnage qui a donné naissance à l'un des agents secrets les plus emblématiques de la littérature et du cinéma.</p>
-            <div class="header__scroll-arrow"></div>
+            <a href="#topbody" class="header__scroll-link">
+                <div id="topbody" class="header__scroll-arrow"></div>
+            </a>
         </section>
 
         <article class="article">
