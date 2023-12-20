@@ -23,23 +23,23 @@
 
 .menuTitleActif {
     display: block;
-    animation: rightToLeft 450ms ease-in-out forwards;
+    animation: rightToLeft 500ms ease-in-out forwards;
 }
 
 .menu__main-element2 {
-    animation-duration: 500ms;
-}
-
-.menu__main-element3 {
     animation-duration: 550ms;
 }
 
-.menu__main-element4 {
+.menu__main-element3 {
     animation-duration: 600ms;
 }
 
-.menu__main-element5 {
+.menu__main-element4 {
     animation-duration: 650ms;
+}
+
+.menu__main-element5 {
+    animation-duration: 700ms;
 }
 
 
