@@ -29,14 +29,7 @@
 .footer__element--link,
 .footer__langage-btn,
 .footer {
-    color: #000;
-    -webkit-text-stroke: .5px white;
-}
-
-.menu__main-line-title {
     color: #fff;
-    -webkit-text-stroke: 0px;
-
 }
 
 /* Nav */
@@ -51,6 +44,8 @@
 }
 
 .menu__main-link {
+    color: #000;
+    -webkit-text-stroke: .5px white;
     font-size: var(--menu-1);
     font-family: 'Koulen', sans-serif;
 }
@@ -73,3 +68,36 @@
 .menu__footer {
     align-self: flex-end;
 }
+
+
+/* Mise en couleur pour la naviguation */
+.menu__main-line-title {
+    color: #fff;
+    -webkit-text-stroke: 0px;
+
+}
+
+.menu__main-film-title {
+    color: #fff;
+    -webkit-text-stroke: 0px;
+
+}
+
+.menu__main-producer-title {
+    color: #fff;
+    -webkit-text-stroke: 0px;
+
+}
+
+.menu__main-music-title {
+    color: #fff;
+    -webkit-text-stroke: 0px;
+
+}
+
+.menu__main-book-title {
+    color: #fff;
+    -webkit-text-stroke: 0px;
+
+}
+
