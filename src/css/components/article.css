@@ -1,0 +1,48 @@
+/* Main */
+.article {
+    color: #fff;
+    margin: 2rem 1rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+/* Title */
+.article__title {
+    font-size: var(--heading-3);
+    font-family: 'Alumni sans', sans-serif;
+    font-weight: lighter;
+
+    position: relative;
+}
+
+.article__title::before {
+    content: '';
+    display: block;
+    width: 75%;
+    height: 72%;
+    background-color: var(--rouge);
+
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+
+    z-index: -1;
+}
+
+/* Text */
+.article__text {
+    font-size: var(--body-2);
+    font-family: 'Khula', sans-serif;
+}
+
+/* Images */
+.article__img {
+    margin: 0rem .5rem;
+}
+
+.article__img-description {
+    font-family: 'Khula', sans-serif ;
+    font-size: var(--body-3);
+    align-self: center;
+}
