@@ -1,3 +1,11 @@
+.caroussel__title {
+    color: #fff;
+    padding: 1rem 1rem;
+
+    font-size: var(--heading-3);
+    font-family: 'Alumni sans', sans-serif;
+    font-weight: lighter;
+}
 .caroussel {
     position: relative;
     display:flex;
