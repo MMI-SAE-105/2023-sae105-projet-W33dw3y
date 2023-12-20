@@ -3,7 +3,7 @@
     position: fixed;
     height: 100vh;
 
-    right: -300%;
+    right: -400%;
     transition: right 300ms ease-in-out;
 
     display: flex;

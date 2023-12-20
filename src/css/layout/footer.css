@@ -1,0 +1,42 @@
+/* Main */
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 1rem;
+
+    background-color: #030303;
+    border-top: 1px solid #fff;
+}
+
+/* Menu */
+.footer__element--link{
+    font-size: var(--body-1);
+    font-family: 'Khand', sans-serif ;
+}
+
+/* langage button */
+.footer__langage {
+    justify-self: flex-end;
+}
+
+.footer__langage-btn {
+    font-family: 'Alumni sans', sans-serif;
+}
+
+/* legal notices */
+.footer__legal-notice {
+    align-self: flex-end;
+    font-family: 'Alumni sans', sans-serif;
+}
+
+.footer__legal-notice--title {
+    font-size: var(--body-1);
+    font-weight: lighter;
+}
+
+/* MMI Logo */
+.footer__logo {
+    align-self: flex-end;
+    justify-self: flex-end;
+}
