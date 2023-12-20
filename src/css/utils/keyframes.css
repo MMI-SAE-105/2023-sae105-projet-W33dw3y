@@ -9,3 +9,34 @@
         transform: scale(0.8);
     }
 }
+
+
+@keyframes rightToLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.menuTitleActif {
+    display: block;
+    animation: rightToLeft 400ms ease-in-out forwards;
+}
+
+.menu__main-element2 {
+    animation-duration: 450ms;
+}
+
+.menu__main-element3 {
+    animation-duration: 500ms;
+}
+
+.menu__main-element4 {
+    animation-duration: 550ms;
+}
+
+.menu__main-element5 {
+    animation-duration: 600ms;
+}

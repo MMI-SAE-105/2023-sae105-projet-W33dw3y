@@ -26,11 +26,27 @@
          >
             <div class="menu__main">
                 <ul class="menu__main-list">
-                    <li class="menu__main-element"><a href="line.html" class="menu__main-link">My name is bond...</a></li>
-                    <li class="menu__main-element"><a href="film.html" class="menu__main-link">Skyfall</a></li>
-                    <li class="menu__main-element"><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
-                    <li class="menu__main-element"><a href="music.html" class="menu__main-link">L'opening</a></li>
-                    <li class="menu__main-element"><a href="book.html" class="menu__main-link">Casino royale</a></li>
+                    <li
+                    class="menu__main-element menu__main-element1"><a href="line.html" 
+                    class="menu__main-link"
+                    :class="{'menuTitleActif' : isMenuOpen}"
+                    >My name is bond...</a></li>
+                    <li 
+                    class="menu__main-element menu__main-element2"
+                    :class="{'menuTitleActif' : isMenuOpen}"
+                    ><a href="film.html" class="menu__main-link ">Skyfall</a></li>
+                    <li 
+                    class="menu__main-element menu__main-element3"
+                    :class="{'menuTitleActif' : isMenuOpen}"
+                    ><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
+                    <li 
+                    class="menu__main-element menu__main-element4"
+                    :class="{'menuTitleActif' : isMenuOpen}"
+                    ><a href="music.html" class="menu__main-link">L'opening</a></li>
+                    <li 
+                    :class="{'menuTitleActif' : isMenuOpen}"
+                    class="menu__main-element menu__main-element5"
+                    ><a href="book.html" class="menu__main-link">Casino royale</a></li>
                 </ul>
             </div>
 
