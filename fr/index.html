@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{isMenuOpen : false}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +10,8 @@
 </head>
 
 </head>
-<body class="body">
-    <header class="head" x-data="{isMenuOpen : false}">
+<body class="body" :class="{'noscroll': isMenuOpen}">
+    <header class="head">
          <div class="head__content">
             <a href="index.html" class="head__link">
                 <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
@@ -22,11 +22,10 @@
         </div>
         </div>
 
-         <nav class="menu"
+         <nav
+         class="menu"
          :class="{'menu-actif' : isMenuOpen}"
          >
-           
-
             <div class="menu__main">
                 <ul class="menu__main-list">
                     <li class="menu__main-element"><a href="line.html" class="menu__main-link">My name is bond...</a></li>
@@ -52,7 +51,7 @@
                 </nav>
 
                 <div class="footer__langage">
-                    <a href="/en/index.html" class="footer__langage-btn">Français</a>
+                    <a href="/en/index.html" class="footer__langage-btn button">English</a>
                 </div>
 
                 <section class="footer__legal-notice">
