@@ -80,3 +80,22 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+
+
+/* Scroll Arrow */
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+    30% {
+        transform: translateY(10px);
+    }
+    700% {
+        transform: translateY(-10px);
+    }
+}
+
+.bounce {
+    animation: bounce 3s ease-out infinite;
+}
