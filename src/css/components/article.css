@@ -1,4 +1,8 @@
 /* Main */
+.main-article {
+    overflow-x: hidden;
+}
+
 .article {
     color: #fff;
     margin: 2rem 1rem 4rem 1rem;
