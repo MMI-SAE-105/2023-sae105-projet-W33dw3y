@@ -1,3 +1,4 @@
+/* Caroussel */
 @keyframes up {
     0% {
         transform: scale(0.8);
@@ -10,7 +11,7 @@
     }
 }
 
-
+/* Menu */
 @keyframes rightToLeft {
     from {
         transform: translateX(100%);
@@ -40,3 +41,14 @@
 .menu__main-element5 {
     animation-duration: 600ms;
 }
+
+
+/* Projects Gallery
+@keyframes appearsUp {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} */

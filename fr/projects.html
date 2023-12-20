@@ -35,46 +35,22 @@
                     <li class="menu__main-element"><a href="music.html" class="menu__main-link">L'opening</a></li>
                     <li class="menu__main-element"><a href="book.html" class="menu__main-link">Casino royale</a></li>
                 </ul>
-                <ul class="menu__secodnary-list">
-                    <li class="menu__secondary-element"><a href="films.html" class="menu__secondary-link">Filmographie</a></li>
-                    <li class="menu__secondary-element"><a href="novels.html" class="menu__secondary-link">Bibliographie</a></li>
-                </ul>
             </div>
 
-            <div class="menu__footer footer">
-                <nav class="footer__nav">
-                    <ul class="footer__list">
-                        <li class="footer__element"><a href="contact.html" class="footer__element--link">Contact</a></li>
-                        <li class="footer__element"><a href="about.html" class="footer__element--link">A propos</a></li>
-                        <li class="footer__element"><a href="glossary.html" class="footer__element--link">Glossaire</a></li>
-                        <li class="footer__element"><a href="projects.html" class="footer__element--link">Autres projets</a></li>
-                    </ul>
-                </nav>
-
-                <div class="footer__langage">
-                    <a href="/en/index.html" class="footer__langage-btn">Français</a>
-                </div>
-
-                <section class="footer__legal-notice">
-                    <h2 class="footer__legal-notice--title">Mathis Liegeon MMI1 B2</h2>
-                    <p class="footer__legal-notice--text">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-                </section>
-
-                <div class="footer__logo">
-                    <a href="http://formation.univ-fcomte.fr/but/metiers-du-multimedia-et-de-linternet" class="footer__logo--link">
-                        <img src="/public/icons/icon_logo-mmi.svg" alt="logo mmi" class="footer__logo--img">
-                    </a>
-                </div>
-            </div>
          </nav>
     </header>
 
     <main class="main">
         <section class="header">
-            <h1 class="header__title">Autres projets</h1>
+            <div class="header__title-container">
+                <h1 class="header__title">Autres projets</h1>
+                <div class="header__title-background"></div>
+            </div>
             <img src="/public/img/img_projects_header.webp" alt="Daniel Craig et Sam Mendes" class="header__background-img">
             <p class="header__text">Découvrez les autres projets réalisés par différents étudiant au département MMI de Montbéliard</p>
-            <div class="header__scroll-arrow"></div>
+            <a href="#topbody" class="header__scroll-link">
+                <div id="topbody" class="header__scroll-arrow"></div>
+            </a>
         </section>
 
         <div 
@@ -92,7 +68,7 @@
             >
                 <div class="gallery__content">
                     <img
-                    class="gallery__img"
+                    class="gallery__img appearsUp"
                     :src="pj.img"
                     :alt="pj.alt"
                     >

@@ -5,6 +5,7 @@
     align-items: flex-end;
     gap: 3rem;
     margin: 5rem 0rem;
+    overflow-x: hidden;
 }
 
 .gallery__content {
@@ -29,6 +30,7 @@
 }
 
 .gallery__text-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -44,7 +46,7 @@
 .gallery__text:not(:last-child)::before{
     content: '';
     height: 1.5px;
-    width: 150px;
+    width: 200%;
     display: block;
     background-color: #fff;
 
@@ -70,19 +72,19 @@
 /* Button */
 .gallery__button {
     align-self: flex-end;
-    margin-bottom: 1.5rem;
+    margin: 0rem 1rem 1.5rem 0rem;
     position: relative;
 }
 
 .gallery__button::after {
     content: "";
-    width: 100%;
+    width: 500%;
     height: 100%;
     background-color: var(--rouge);
 
     display: block;
     position: absolute;
-    right: -20px;
+    left: 15px;
     bottom: -8px;
 
     z-index: -1;
