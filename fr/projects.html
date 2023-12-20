@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{isMenuOpen : false}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <link rel="icon" href="/public/icons/icon_logo-007.svg">
     <script src="//unpkg.com/alpinejs" defer></script>
 </head>
-<body class="body">
+<body class="body" :class="{'noscroll': isMenuOpen}">
     <header class="head">
          <div class="head__content">
             <a href="index.html" class="head__link">
@@ -20,20 +20,25 @@
         </div>
         </div>
 
-         <nav class="menu">
-            <div class="menu__header">
-                <a href="index.html" class="head__link">
-                    <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
-                </a>
-            </div>
+         <nav class="menu" :class="{'menu-actif' : isMenuOpen}">
 
             <div class="menu__main">
                 <ul class="menu__main-list">
-                    <li class="menu__main-element"><a href="line.html" class="menu__main-link">My name is bond...</a></li>
-                    <li class="menu__main-element"><a href="film.html" class="menu__main-link">Skyfall</a></li>
-                    <li class="menu__main-element"><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
-                    <li class="menu__main-element"><a href="music.html" class="menu__main-link">L'opening</a></li>
-                    <li class="menu__main-element"><a href="book.html" class="menu__main-link">Casino royale</a></li>
+                    <li class="menu__main-element menu__main-element1"
+                    :class="{'menuTitleActif' : isMenuOpen}"
+                    ><a href="line.html" class="menu__main-link">My name is bond...</a></li>
+                    <li class="menu__main-element menu__main-element2"
+                    :class="{'menuTitleActif' : isMenuOpen}"
+                    ><a href="film.html" class="menu__main-link">Skyfall</a></li>
+                    <li class="menu__main-element menu__main-element3"
+                    :class="{'menuTitleActif' : isMenuOpen}"
+                    ><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
+                    <li class="menu__main-element menu__main-element4"
+                    :class="{'menuTitleActif' : isMenuOpen}"
+                    ><a href="music.html" class="menu__main-link">L'opening</a></li>
+                    <li class="menu__main-element menu__main-element5"
+                    :class="{'menuTitleActif' : isMenuOpen}"
+                    ><a href="book.html" class="menu__main-link">Casino royale</a></li>
                 </ul>
             </div>
 

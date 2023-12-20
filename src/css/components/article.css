@@ -46,3 +46,27 @@
     font-size: var(--body-3);
     align-self: center;
 }
+
+/* Button */
+.article__button {
+    align-self: flex-end;
+    padding-right: 3rem;
+    border-right: none;
+    margin-bottom: 4rem;
+
+    position: relative;
+}
+
+.article__button::before {
+    content: '';
+    width: 200%;
+    height: 100%;
+    background-color: var(--rouge);
+
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: -10px;
+
+    z-index: -1;
+}

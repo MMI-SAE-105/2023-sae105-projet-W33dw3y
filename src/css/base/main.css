@@ -9,6 +9,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
 /*texte*/
 p {
     margin: 0;
