@@ -52,3 +52,31 @@
         opacity: 1;
     }
 } */
+
+
+
+
+/* Title Home-card */
+@keyframes reveal {
+    from {
+        background-position-x: 200%;
+    }
+    to {
+        background-position-x: 0%;
+        background-size: 800%;
+    }
+}
+
+.reveal {
+    background: linear-gradient(90deg, white, transparent);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    animation: reveal both linear;
+    animation-duration: 1ms;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
