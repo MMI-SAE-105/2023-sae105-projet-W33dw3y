@@ -3,8 +3,9 @@
     background-color: rgba(0, 0, 0, 0.95);
     position: fixed;
     height: 100vh;
+    width: 100%;
 
-    right: -400%;
+    right: -100%;
     transition: right 300ms ease-in-out;
 
     display: flex;
