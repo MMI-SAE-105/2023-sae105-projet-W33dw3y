@@ -45,8 +45,9 @@ li {
 
 /* buttons */
 .button {
+    color: #fff;
     border: 1px solid #fff;
     font-family: 'Koulen';
     font-size: var(--body-1);
-    padding: 0rem 0.7rem;
+    padding: 0.1rem 0.7rem;
 }

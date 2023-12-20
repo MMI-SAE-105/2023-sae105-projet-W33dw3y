@@ -97,9 +97,11 @@
                     :alt="pj.alt"
                     >
                     <div class="gallery__description">
-                        <span class="gallery__text" x-text="pj.nom">nom</span>
-                        <span class="gallery__text" x-text="pj.projet">projet</span>
-                        <a class="gallery__button" :href="pj.href">Voir</a>
+                        <div class="gallery__text-container">
+                            <span class="gallery__text" x-text="pj.nom">nom</span>
+                            <span class="gallery__text" x-text="pj.projet">projet</span>
+                        </div>
+                        <a class="gallery__button button" :href="pj.href">Voir</a>
                     </div>
                 </div>
             </template>
