@@ -1,0 +1,73 @@
+/* Main */
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 0rem 1rem;
+}
+
+.contact__list {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    column-gap: 2.5rem;
+}
+
+.contact__element-3,
+.contact__element-4{
+    grid-column: 1 / 3;
+}
+
+
+/* Form Element */
+.contact__element {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__input {
+    width: 100%;
+    min-height: 35px;
+    border: 1px solid grey;
+    border-radius: 1px;
+}
+
+.contact__label {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Koulen', sans-serif;
+    font-size: var(--body-2);
+    letter-spacing: 1px;
+
+    margin-bottom: 0.2rem;
+}
+
+.contact__textarea {
+    height: 150px;
+}
+
+/* Form Button */
+.contact__button {
+    background: none;
+    border: 1px solid #fff;
+    width: 80px;
+    margin-right: 2rem;
+}
+
+
+/* Message */
+.contact__message {
+    color: #fff;
+    font-family: 'Alumni sans', sans-serif;
+    font-size: var(--menu-2);
+    margin-bottom: 2rem;
+}
