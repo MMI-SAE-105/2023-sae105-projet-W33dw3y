@@ -96,5 +96,14 @@
 }
 
 .bounce {
-    animation: bounce 3s ease-out infinite;
+    animation: bounce 3s ease-in-out infinite;
+}
+
+/* For 404 page */
+.bounce-late1 {
+    animation: bounce 3s 300ms ease-in-out infinite;
+}
+
+.bounce-late2 {
+    animation: bounce 3s 600ms ease-in-out infinite;
 }
