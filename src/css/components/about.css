@@ -1,0 +1,18 @@
+.about__link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.about__more-text,
+.about__more-link{
+    color: #fff;
+    font-family: 'Khula', sans-serif;
+}
+
+.about__more-text {
+    margin-top: 3rem;
+}
+
+.about__more-link {
+    text-decoration: underline;
+}
