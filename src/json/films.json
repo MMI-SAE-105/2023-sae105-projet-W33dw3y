@@ -1,0 +1,32 @@
+[
+    {
+        "img": "/public/img/img_films-1.webp",
+        "alt": "affiche du film mourir peut attendre",
+        "title": "No Time To Die",
+        "date": "2021"
+    },
+    {
+        "img": "/public/img/img_films-2.webp",
+        "alt": "affiche du film spectre",
+        "title": "Spectre",
+        "date": "2015"
+    },
+    {
+        "img": "/public/img/img_films-3.webp",
+        "alt": "affiche du film skyfall",
+        "title": "Skyfall",
+        "date": "2012"
+    },
+    {
+        "img": "/public/img/img_films-4.webp",
+        "alt": "affiche du film quantum of solace",
+        "title": "Quantum Of Solace",
+        "date": "2008"
+    },
+    {
+        "img": "/public/img/img_films-5.webp",
+        "alt": "affiche du film casino royale",
+        "title": "Casino Royale",
+        "date": "2006"
+    }
+]

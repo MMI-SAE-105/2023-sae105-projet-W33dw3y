@@ -1,3 +1,4 @@
+/* Main + Novel slider */
 .caroussel__title {
     color: #fff;
     padding: 1rem 1rem;
@@ -47,12 +48,26 @@
 .caroussel__figure {
     margin: 0;
     width: 100%;
-    animation: up linear forwards;
-    animation-timeline: view(x);
 }
 
 .caroussel__text {
     color: white;
     font-size: var(--heading-2);
     font-family: 'Koulen', sans-serif;
+}
+
+
+/* Films */
+.caroussel-film {
+    margin-bottom: 5rem;
+}
+
+.caroussel__screen-films {
+    width: 100%;
+    height: auto;
+    margin: 0.5rem .3rem;
+}
+
+.caroussel__text-film {
+    margin-left: 10px;
 }
