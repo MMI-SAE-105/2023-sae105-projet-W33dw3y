@@ -89,8 +89,8 @@
         <article class="article">
             <h1 class="article__title">Casino Royale : L'Origine de l'Espionnage Élégant</h1>
             <p class="article__text">Casino Royale est le premier roman de la série James Bond de Ian Fleming. L'histoire suit l'agent secret James Bond, connu sous le code "007," alors qu'il est envoyé en mission pour affronter Le Chiffre, un dangereux banquier russe. Le but de la mission est, lors d’une partie de Poker, d'empêcher Le Chiffre de financer des activités terroristes à travers des jeux de pouvoir entre les deux camps. Le MI6 et les organisations terroristes.</p>
-            <a href="novels.html" class="article__button button">Voir les romans</a>
         </article>
+        <a href="#novels-caroussel" class="article__button button">Voir les romans</a>
         <article class="article">
             <h1 class="article__title">De la Page à l'Écran : Casino Royale au Cinéma</h1>
             <p class="article__text">L’impact de Casino Royale ne s’est pas limité à la littérature. En 2006, le roman a été adapté au cinéma, avec un changement d’acteur. La saga passant de Pierce Brosnan à Daniel Craig, ce fut un enjeux important pour la franchise. Le film, réaliste et sombre, aux actions spectaculaires, à été salué par la critique et s'inscrit comme l’un des meilleurs James Bond. Le succès de Casino Royale a donc conduit aux films que l’on connait tous : Quantum Of Solace, Skyfall, Spectre et dernièrement No Time To Die. (liens filmographie)</p>
@@ -103,7 +103,8 @@
         </article>
 
         <div 
-        class="caroussel" 
+        class="caroussel"
+        id="novels-caroussel"
         x-data="{
         async tabnovel() {
         const resp = await fetch('/src/json/novels.json');
