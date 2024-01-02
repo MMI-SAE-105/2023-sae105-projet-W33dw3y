@@ -36,12 +36,15 @@
 /* Nav */
 .menu__main {
     padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 .menu__main-list {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: .5rem;
 }
 
 .menu__main-link {
@@ -49,13 +52,14 @@
     -webkit-text-stroke: .5px white;
     font-size: var(--menu-1);
     font-family: 'Koulen', sans-serif;
+    letter-spacing: 2px;
 }
 
 .menu__main-element {
     position: relative;
 }
 
-.menu__main-element:not(:last-child):after {
+/* .menu__main-element5::after {
     content: "";
     width: 70px;
     height: 1px;
@@ -63,7 +67,7 @@
     position: absolute;
     left: 10px;
     bottom: -10px;
-}
+} */
 
 /* Footer */
 .menu__footer {
@@ -76,8 +80,15 @@
 .menu__main-film-title,
 .menu__main-producer-title,
 .menu__main-music-title,
-.menu__main-book-title {
+.menu__main-book-title,
+.menu__main-projects-title,
+.menu__main-glossary-title,
+.menu__main-about-title,
+.menu__main-contact-title {
     color: #fff;
     -webkit-text-stroke: 0px;
 }
 
+.menu__main-link-2 {
+    font-size: var(--menu-2);
+}

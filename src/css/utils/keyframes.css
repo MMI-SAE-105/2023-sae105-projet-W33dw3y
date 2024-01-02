@@ -66,6 +66,22 @@
     animation-duration: 650ms;
 }
 
+.menu__main-element6 {
+    animation-duration: 700ms;
+}
+
+.menu__main-element7 {
+    animation-duration: 750ms;
+}
+
+.menu__main-element8 {
+    animation-duration: 800ms;
+}
+
+.menu__main-element9 {
+    animation-duration: 850ms;
+}
+
 
 /* Title Home-card */
 @keyframes reveal {
