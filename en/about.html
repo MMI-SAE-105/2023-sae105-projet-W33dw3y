@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glossaire</title>
+    <title>A propos</title>
     <link rel="stylesheet" href="/src/css/vendors/styles.css">
     <link rel="icon" href="/public/icons/icon_logo-007.svg">
     <script defer src="https://unpkg.com/alpinejs"></script>
@@ -30,19 +30,19 @@
                     class="menu__main-element menu__main-element1"
                     :class="{'menuTitleActif' : isMenuOpen}"
                     ><a href="line.html" class="menu__main-link">My name is bond...</a></li>
-                    <li 
+                    <li
                     class="menu__main-element menu__main-element2"
                     :class="{'menuTitleActif' : isMenuOpen}"
                     ><a href="film.html" class="menu__main-link ">Skyfall</a></li>
-                    <li 
+                    <li
                     class="menu__main-element menu__main-element3"
                     :class="{'menuTitleActif' : isMenuOpen}"
                     ><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
-                    <li 
+                    <li
                     class="menu__main-element menu__main-element4"
                     :class="{'menuTitleActif' : isMenuOpen}"
                     ><a href="music.html" class="menu__main-link">L'opening</a></li>
-                    <li 
+                    <li
                     :class="{'menuTitleActif' : isMenuOpen}"
                     class="menu__main-element menu__main-element5"
                     ><a href="book.html" class="menu__main-link">Casino royale</a></li>
@@ -55,11 +55,11 @@
                     <li 
                     class="menu__main-element menu__main-element7"
                     :class="{'menuTitleActif' : isMenuOpen}"
-                    ><a href="about.html" class="menu__main-link menu__main-link-2">A propos</a></li>
+                    ><a href="about.html" class="menu__main-link menu__main-link-2 menu__main-about-title">A propos</a></li>
                     <li 
                     class="menu__main-element menu__main-element8"
                     :class="{'menuTitleActif' : isMenuOpen}"
-                    ><a href="glossary.html" class="menu__main-link menu__main-link-2 menu__main-glossary-title">Glossaire</a></li>
+                    ><a href="glossary.html" class="menu__main-link menu__main-link-2">Glossaire</a></li>
                     <li 
                     class="menu__main-element menu__main-element9"
                     :class="{'menuTitleActif' : isMenuOpen}"
@@ -69,53 +69,27 @@
          </nav>
     </header>
 
-    <main class="main about-main">
+    <main class="main">
         <section class="header">
             <div class="header__title-container">
-                <h1 class="header__title">Glossaire</h1>
+                <h1 class="header__title">A PROPOS</h1>
                 <div class="header__title-background"></div>
             </div>
-            <img src="/public/img/img_glossary_header.webp" alt="Siège du MI6" class="header__background-img">
-            <p class="header__text">Explication des termes techniques</p>
+            <img src="/public/img/img_about_header.webp" alt="Daniel Craig" class="header__background-img">
+            <p class="header__text">Si vous êtes arrivé ici c’est que vous voulez en savoir un peu plus sur ce site web ! </p>
             <a href="#topbody" class="header__scroll-link bounce">
                 <div id="topbody" class="header__scroll-arrow"></div>
             </a>
         </section>
 
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">MI6</h1>
-            <p class="glossary-article__text">Le MI6, ou Secret Intelligence Service (SIS), est le service de renseignement extérieur du Royaume-Uni. Il est chargé de la collecte de renseignements à l'étranger et des opérations de renseignement pour la sécurité nationale britannique.</p>
-            <a href="https://sis.gov.uk/intelligence-explained.html#section-00" class="glossary-article__link button article__button">En savoir plus</a>
+        <article class="article about__article">
+            <p class=" article__text about__text">Ce site web est un projet réalisé dans le cadre d’un exercice pédagogique au <a href="http://formation.univ-fcomte.fr/but/metiers-du-multimedia-et-de-linternet" class="about__link">département MMI de Montbéliard.</a> Je m’appelle Mathis Liegeon, je suis en première année de BUT et je suis le créateur de ce site web. J’ai rédigé et imaginé l’ensemble des pages de ce site inspiré de l’univers de la saga James Bond. Sur ce site, j’ai voulu retranscrire l’ambiance de cette saga dont je suis fan. J’ai essayé de rendre la meilleure expérience possible grâce aux textes, aux couleurs et aux visuels présents sur le site.</p>
+            <p class="about__more-text">Pour plus d’informations, vous pouvez me contacter ici :</p>
+            <a class="about__more-link">mathis.liegeon@edu.univ-fcomte.fr</a>
         </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Pierce Brosnan</h1>
-            <p class="glossary-article__text">Pierce Brosnan est un acteur irlandais renommé, célèbre pour avoir interprété le rôle de James Bond dans plusieurs films de la franchise, notamment "GoldenEye," "Tomorrow Never Dies," "The World Is Not Enough," et "Die Another Day."</p>
-            <a href="https://www.allocine.fr/personne/fichepersonne-15188/biographie/" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Grammy awards</h1>
-            <p class="glossary-article__text">Les Grammy Awards sont des récompenses musicales de renommée mondiale décernées chaque année pour honorer l'excellence dans l'industrie musicale. Les lauréats des Grammy Awards sont reconnus pour leurs réalisations exceptionnelles dans différents genres musicaux.</p>
-            <a href="https://www.recordingacademy.com/about" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Les oscars</h1>
-            <p class="glossary-article__text">Les Oscars, ou les Academy Awards, sont des récompenses cinématographiques de renommée mondiale décernées chaque année pour honorer l'excellence dans l'industrie du cinéma. Les lauréats des Oscars sont reconnus pour leurs contributions exceptionnelles dans diverses catégories liées au cinéma.</p>
-            <a href="https://abc.com/shows/oscars/about-the-show" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Département MMI</h1>
-            <p class="glossary-article__text">Le BUT MMI est une formation pluridisciplinaire qui s’articule autour de trois axes fondamentaux : le design, le développement et la communication. Il forme des professionnels du web et du multimédia en ligne depuis plus de quinze ans.</p>
-            <a href="http://www.iut-bm.univ-fcomte.fr/pages/fr/dpt-mmi---actualites-18542.html" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Générique d'ouverture</h1>
-            <p class="glossary-article__text">Le générique d'ouverture est la séquence visuelle qui apparaît au début d'un film ou d'une émission de télévision. Il est conçu pour introduire l'histoire, présenter les noms des acteurs, de l'équipe de production, et établir l'atmosphère de l'œuvre.</p>
-            <a href="https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rique_(%C5%93uvre)" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-
     </main>
 
-    <footer class="footer">
+     <footer class="footer">
         <nav class="footer__nav">
                 <ul class="footer__list">
                     <li class="footer__element"><a href="contact.html" class="footer__element--link">Contact</a></li>
@@ -126,7 +100,7 @@
             </nav>
 
             <div class="footer__langage">
-                <a href="/en/index.html" class="footer__langage-btn button">Français</a>
+                <a href="/en/index.html" class="footer__langage-btn button">English</a>
             </div>
 
             <section class="footer__legal-notice">
@@ -140,6 +114,6 @@
                 </a>
             </div>
     </footer>
- 
+
 </body>
 </html>

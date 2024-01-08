@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glossaire</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="/src/css/vendors/styles.css">
     <link rel="icon" href="/public/icons/icon_logo-007.svg">
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body class="body" :class="{'noscroll': isMenuOpen}">
     <header class="head">
-         <div class="head__content">
+         <div class="head__content"> 
             <a href="index.html" class="head__link">
                 <img src="/public/icons/icon_logo-007.svg" alt="logo" class="head__logo">
             </a>
@@ -51,7 +51,7 @@
                     <li
                     class="menu__main-element menu__main-element6"
                     :class="{'menuTitleActif' : isMenuOpen}"
-                    ><a href="contact.html" class="menu__main-link menu__main-link-2">Contact</a></li>
+                    ><a href="contact.html" class="menu__main-link menu__main-link-2 menu__main-contact-title">Contact</a></li>
                     <li 
                     class="menu__main-element menu__main-element7"
                     :class="{'menuTitleActif' : isMenuOpen}"
@@ -59,7 +59,7 @@
                     <li 
                     class="menu__main-element menu__main-element8"
                     :class="{'menuTitleActif' : isMenuOpen}"
-                    ><a href="glossary.html" class="menu__main-link menu__main-link-2 menu__main-glossary-title">Glossaire</a></li>
+                    ><a href="glossary.html" class="menu__main-link menu__main-link-2">Glossaire</a></li>
                     <li 
                     class="menu__main-element menu__main-element9"
                     :class="{'menuTitleActif' : isMenuOpen}"
@@ -69,50 +69,43 @@
          </nav>
     </header>
 
-    <main class="main about-main">
+    <main class="main main-contact">
         <section class="header">
             <div class="header__title-container">
-                <h1 class="header__title">Glossaire</h1>
+                <h1 class="header__title">Me contacter</h1>
                 <div class="header__title-background"></div>
             </div>
-            <img src="/public/img/img_glossary_header.webp" alt="Siège du MI6" class="header__background-img">
-            <p class="header__text">Explication des termes techniques</p>
+
+            <img src="/public/img/img_films_header.webp" alt="Daniel Craig en tant que James Bond" class="header__background-img">
+            <p class="header__text">Vous avez des remarques ou des questions à nous poser ? N’hésitez pas !</p>
             <a href="#topbody" class="header__scroll-link bounce">
                 <div id="topbody" class="header__scroll-arrow"></div>
             </a>
         </section>
 
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">MI6</h1>
-            <p class="glossary-article__text">Le MI6, ou Secret Intelligence Service (SIS), est le service de renseignement extérieur du Royaume-Uni. Il est chargé de la collecte de renseignements à l'étranger et des opérations de renseignement pour la sécurité nationale britannique.</p>
-            <a href="https://sis.gov.uk/intelligence-explained.html#section-00" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Pierce Brosnan</h1>
-            <p class="glossary-article__text">Pierce Brosnan est un acteur irlandais renommé, célèbre pour avoir interprété le rôle de James Bond dans plusieurs films de la franchise, notamment "GoldenEye," "Tomorrow Never Dies," "The World Is Not Enough," et "Die Another Day."</p>
-            <a href="https://www.allocine.fr/personne/fichepersonne-15188/biographie/" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Grammy awards</h1>
-            <p class="glossary-article__text">Les Grammy Awards sont des récompenses musicales de renommée mondiale décernées chaque année pour honorer l'excellence dans l'industrie musicale. Les lauréats des Grammy Awards sont reconnus pour leurs réalisations exceptionnelles dans différents genres musicaux.</p>
-            <a href="https://www.recordingacademy.com/about" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Les oscars</h1>
-            <p class="glossary-article__text">Les Oscars, ou les Academy Awards, sont des récompenses cinématographiques de renommée mondiale décernées chaque année pour honorer l'excellence dans l'industrie du cinéma. Les lauréats des Oscars sont reconnus pour leurs contributions exceptionnelles dans diverses catégories liées au cinéma.</p>
-            <a href="https://abc.com/shows/oscars/about-the-show" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Département MMI</h1>
-            <p class="glossary-article__text">Le BUT MMI est une formation pluridisciplinaire qui s’articule autour de trois axes fondamentaux : le design, le développement et la communication. Il forme des professionnels du web et du multimédia en ligne depuis plus de quinze ans.</p>
-            <a href="http://www.iut-bm.univ-fcomte.fr/pages/fr/dpt-mmi---actualites-18542.html" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Générique d'ouverture</h1>
-            <p class="glossary-article__text">Le générique d'ouverture est la séquence visuelle qui apparaît au début d'un film ou d'une émission de télévision. Il est conçu pour introduire l'histoire, présenter les noms des acteurs, de l'équipe de production, et établir l'atmosphère de l'œuvre.</p>
-            <a href="https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rique_(%C5%93uvre)" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
+        <form class="contact">
+            <ul class="contact__list">
+                <li class="contact__element contact__element-1">
+                    <label class="contact__label" for="fname">Nom</label>
+                    <input class="contact__input" type="text" id="fname" name="fname">
+                </li>
+                <li class="contact__element contact__element-2">
+                    <label class="contact__label" for="lname">Prenom</label>
+                    <input class="contact__input" type="text" id="lname" name="lname">
+                </li>
+                <li class="contact__element contact__element-3">
+                    <label class="contact__label" for="mail">Email</label>
+                    <input class="contact__input" type="email" id="mail" name="mail">
+                </li>
+                <li class="contact__element contact__element-4">
+                    <label class="contact__label" for="message">Votre message</label>
+                    <textarea class="contact__textarea" name="message" id="message"></textarea>
+                </li>
+            </ul>
+            <button class="contact__button button article__button">Envoyer</button>
+        </form>
 
+        <p class="contact__message">Merci pour votre commentaire !</p>
     </main>
 
     <footer class="footer">

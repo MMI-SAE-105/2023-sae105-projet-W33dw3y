@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glossaire</title>
+    <title>All About Skyfall</title>
     <link rel="stylesheet" href="/src/css/vendors/styles.css">
     <link rel="icon" href="/public/icons/icon_logo-007.svg">
     <script defer src="https://unpkg.com/alpinejs"></script>
@@ -20,12 +20,12 @@
         </div>
         </div>
 
-         <nav 
-         class="menu" 
+         <nav
+         class="menu"
          :class="{'menu-actif' : isMenuOpen}"
          >
             <div class="menu__main">
-                <ul class="menu__main-list">
+                <ul class="menu__main-list menu__main-list-1">
                     <li
                     class="menu__main-element menu__main-element1"
                     :class="{'menuTitleActif' : isMenuOpen}"
@@ -59,59 +59,83 @@
                     <li 
                     class="menu__main-element menu__main-element8"
                     :class="{'menuTitleActif' : isMenuOpen}"
-                    ><a href="glossary.html" class="menu__main-link menu__main-link-2 menu__main-glossary-title">Glossaire</a></li>
+                    ><a href="glossary.html" class="menu__main-link menu__main-link-2">Glossaire</a></li>
                     <li 
                     class="menu__main-element menu__main-element9"
                     :class="{'menuTitleActif' : isMenuOpen}"
                     ><a href="projects.html" class="menu__main-link menu__main-link-2">Autres projets</a></li>
                 </ul>
             </div>
+
          </nav>
     </header>
 
-    <main class="main about-main">
+    <main class="main">
         <section class="header">
             <div class="header__title-container">
-                <h1 class="header__title">Glossaire</h1>
+                <h1 class="header__title">My name </h1>
+                <h1 class="header__title">is bond,</h1>
+                <h1 class="header__title">james bond...</h1>
                 <div class="header__title-background"></div>
             </div>
-            <img src="/public/img/img_glossary_header.webp" alt="Siège du MI6" class="header__background-img">
-            <p class="header__text">Explication des termes techniques</p>
+
+            <img src="/public/img/img_home_header.webp" alt="Photo de James Bond et Londres" class="header__background-img">
+            <p class="header__text">Retrouvez l’ensemble des films de la saga et de nombreuses informations concernant le plus beau chef d'œuvre de celle-ci : Skyfall</p>
             <a href="#topbody" class="header__scroll-link bounce">
                 <div id="topbody" class="header__scroll-arrow"></div>
             </a>
         </section>
 
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">MI6</h1>
-            <p class="glossary-article__text">Le MI6, ou Secret Intelligence Service (SIS), est le service de renseignement extérieur du Royaume-Uni. Il est chargé de la collecte de renseignements à l'étranger et des opérations de renseignement pour la sécurité nationale britannique.</p>
-            <a href="https://sis.gov.uk/intelligence-explained.html#section-00" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Pierce Brosnan</h1>
-            <p class="glossary-article__text">Pierce Brosnan est un acteur irlandais renommé, célèbre pour avoir interprété le rôle de James Bond dans plusieurs films de la franchise, notamment "GoldenEye," "Tomorrow Never Dies," "The World Is Not Enough," et "Die Another Day."</p>
-            <a href="https://www.allocine.fr/personne/fichepersonne-15188/biographie/" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Grammy awards</h1>
-            <p class="glossary-article__text">Les Grammy Awards sont des récompenses musicales de renommée mondiale décernées chaque année pour honorer l'excellence dans l'industrie musicale. Les lauréats des Grammy Awards sont reconnus pour leurs réalisations exceptionnelles dans différents genres musicaux.</p>
-            <a href="https://www.recordingacademy.com/about" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Les oscars</h1>
-            <p class="glossary-article__text">Les Oscars, ou les Academy Awards, sont des récompenses cinématographiques de renommée mondiale décernées chaque année pour honorer l'excellence dans l'industrie du cinéma. Les lauréats des Oscars sont reconnus pour leurs contributions exceptionnelles dans diverses catégories liées au cinéma.</p>
-            <a href="https://abc.com/shows/oscars/about-the-show" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Département MMI</h1>
-            <p class="glossary-article__text">Le BUT MMI est une formation pluridisciplinaire qui s’articule autour de trois axes fondamentaux : le design, le développement et la communication. Il forme des professionnels du web et du multimédia en ligne depuis plus de quinze ans.</p>
-            <a href="http://www.iut-bm.univ-fcomte.fr/pages/fr/dpt-mmi---actualites-18542.html" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
-        <article class="glossary-article article">
-            <h1 class="glossary-article__title">Générique d'ouverture</h1>
-            <p class="glossary-article__text">Le générique d'ouverture est la séquence visuelle qui apparaît au début d'un film ou d'une émission de télévision. Il est conçu pour introduire l'histoire, présenter les noms des acteurs, de l'équipe de production, et établir l'atmosphère de l'œuvre.</p>
-            <a href="https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rique_(%C5%93uvre)" class="glossary-article__link button article__button">En savoir plus</a>
-        </article>
+        <section class="card">
+            <div class="card__title-content card__title-content1 card__title-content-left">
+                <h1 class="card__title reveal">skyfall</h1>
+                <h1 class="card__title reveal">la plus grande</h1>
+                <h1 class="card__title reveal">resussite de la saga</h1>
+            </div>
+            <p class="card__text card__text1 card__text-left">Réalisé par Sam Mendes, Skyfall est considéré comme le plus aboutit de tout les James Bond... </p>
+            <a href="film.html" class="card__button card__button1 card__button-right">Acceder a l'article</a>
+            <img src="/public/img/img_home-1.webp" alt="Photo de Daniel Craig en tant que James Bond" class="card__background-img">
+        </section>
+        <section class="card">
+            <div class="card__title-content card__title-content2 card__title-content-right">
+                <h1 class="card__title reveal">Une des repliques </h1>
+                <h1 class="card__title reveal">les plus</h1>
+                <h1 class="card__title reveal">emblematiques</h1>
+                <h1 class="card__title reveal">du cinema</h1>
+            </div>
+            <p class="card__text card__text2 card__text-right">La réplique incarne l'élégance et l'intrigue de l'univers...</p>
+            <a href="line.html" class="card__button card__button2 card__button-left">Acceder a l'article</a>
+            <img src="/public/img/img_home-2.webp" alt="Photo de Daniel Craig en tant que James Bond" class="card__background-img">
+        </section>
+        <section class="card">
+            <div class="card__title-content card__title-content3 card__title-content-left">
+                <h1 class="card__title reveal">un opening</h1>
+                <h1 class="card__title reveal">memorable</h1>
+            </div>
+            <p class="card__text card__text3 card__text-right">Avec sa chanson, Adele réussi à capturer l'atmosphère sombre et la tension palpitante du film...</p>
+            <a href="music.html" class="card__button card__button3 card__button-left">Acceder a l'article</a>
+            <img src="/public/img/img_home-3.webp" alt="Photo de Daniel Craig en tant que James Bond" class="card__background-img">
+        </section>
+        <section class="card">
+            <div class="card__title-content card__title-content4 card__title-content-right">
+                <h1 class="card__title reveal">Sam Mendes,</h1>
+                <h1 class="card__title reveal">un realisateur</h1>
+                <h1 class="card__title reveal">creatif</h1>
+            </div>
+            <p class="card__text card__text4 card__text-left">Sam Mendes a apporté son talent exceptionnel à Skyfall, donnant au film une profondeur et une intensité unique…</p>
+            <a href="producer.html" class="card__button card__button4 card__button-right">Acceder a l'article</a>
+            <img src="/public/img/img_home-4.webp" alt="Photo de Sam Mendes" class="card__background-img">
+        </section>
+        <section class="card">
+            <div class="card__title-content card__title-content5 card__title-content-left">
+                <h1 class="card__title reveal">Casino royale,</h1>
+                <h1 class="card__title reveal">un premier</h1>
+                <h1 class="card__title reveal">chef-d’oeuvre</h1>
+            </div> 
+            <p class="card__text card__text5 card__text-right">L’oeuvre introduisant un personnage emblématique de la littérature et du cinéma d'espionnage...</p>
+            <a href="book.html" class="card__button card__button5 card__button-left">Acceder a l'article</a>
+            <img src="/public/img/img_home-5.webp" alt="Couverture du livre Casion Royal" class="card__background-img">
+        </section>
 
     </main>
 
@@ -126,7 +150,7 @@
             </nav>
 
             <div class="footer__langage">
-                <a href="/en/index.html" class="footer__langage-btn button">Français</a>
+                <a href="/en/index.html" class="footer__langage-btn button">English</a>
             </div>
 
             <section class="footer__legal-notice">

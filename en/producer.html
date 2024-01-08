@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casino Royal</title>
+    <title>Le réalisateur</title>
     <link rel="stylesheet" href="/src/css/vendors/styles.css">
     <link rel="icon" href="/public/icons/icon_logo-007.svg">
     <script defer src="https://unpkg.com/alpinejs"></script>
@@ -20,7 +20,7 @@
         </div>
         </div>
 
-         <nav class="menu" :class="{'menu-actif' : isMenuOpen}">
+         <nav class="menu"  :class="{'menu-actif' : isMenuOpen}">
 
             <div class="menu__main">
                 <ul class="menu__main-list">
@@ -32,13 +32,13 @@
                     ><a href="film.html" class="menu__main-link">Skyfall</a></li>
                     <li class="menu__main-element menu__main-element3"
                     :class="{'menuTitleActif' : isMenuOpen}"
-                    ><a href="producer.html" class="menu__main-link">Sam Mendes</a></li>
+                    ><a href="producer.html" class="menu__main-link menu__main-producer-title">Sam Mendes</a></li>
                     <li class="menu__main-element menu__main-element4"
                     :class="{'menuTitleActif' : isMenuOpen}"
                     ><a href="music.html" class="menu__main-link">L'opening</a></li>
                     <li class="menu__main-element menu__main-element5"
                     :class="{'menuTitleActif' : isMenuOpen}"
-                    ><a href="book.html" class="menu__main-link menu__main-book-title">Casino royale</a></li>
+                    ><a href="book.html" class="menu__main-link">Casino royale</a></li>
                 </ul>
                 <ul class="menu__main-list menu__main-list-2">
                     <li
@@ -60,74 +60,53 @@
                 </ul>
             </div>
 
-            
+
          </nav>
     </header>
 
     <main class="main main-article">
         <section class="header">
             <div class="header__title-container">
-                <h1 class="header__title">L'Étincelle qui a</h1>
-                <h1 class="header__title">Enflammé la</h1>
-                <h1 class="header__title">Légende Bond</h1>
+                <h1 class="header__title">Sam Mendes,</h1>
+                <h1 class="header__title">the maestro</h1>
+                <h1 class="header__title">behind Skyfall</h1>
                 <div class="header__title-background"></div>
             </div>
-
-            <img src="/public/img/img_book_header.webp" alt="Daniel Craig" class="header__background-img">
-            <p class="header__text">Découvrez l'origine de la franchise James Bond dans un roman d'espionnage qui a donné naissance à l'un des agents secrets les plus emblématiques de la littérature et du cinéma.</p>
+            <img src="/public/img/img_producer_header.webp" alt="Sam Mendes" class="header__background-img">
+            <p class="header__text">SAcclaimed director Sam Mendes left an indelible mark on cinema history with Skyfall.</p>
             <a href="#topbody" class="header__scroll-link bounce">
                 <div id="topbody" class="header__scroll-arrow"></div>
             </a>
         </section>
 
         <article class="article">
-            <h1 class="article__title">Ian Fleming : L'Homme derrière Bond</h1>
-            <p class="article__text">Ian Fleming, né le 28 mai 1908 à Londres, était un écrivain et journaliste britannique. Sa carrière littéraire a pris une nouvelle dimension en 1953 avec la publication de son premier roman, Casino Royale,qui a introduit le monde à l'agent secret James Bond. Étant un ancien officier du renseignement naval, il a puisé dans ses propres expériences et connaissances pour créer le personnage de Bond et son univers.</p>
-            <img src="/public/img/img_book_article1.webp" alt="Ian fleming" class="article__img">
-            <p class="article__img-description">Ian fleming</p>
+            <h1 class="article__title">Sam Mendes' brilliant career</h1>
+            <p class="article__text">Sam Mendes is a renowned British film director, born on August 1 in Reading, England. He studied at the prestigious University of Cambridge before making his theatrical debut in London. His film career took off with his 1999 film American Beauty. It won him the Oscar for Best Director. This recognition opened up many new avenues for him in the film world.</p>
+            <img src="/public/img/img_producer_article1.webp" alt="Affiche du film American Beauty" class="article__img">
+            <p class="article__img-description">Sam Mendes’ first success</p>
         </article>
         <article class="article">
-            <h1 class="article__title">Casino Royale : L'Origine de l'Espionnage Élégant</h1>
-            <p class="article__text">Casino Royale est le premier roman de la série James Bond de Ian Fleming. L'histoire suit l'agent secret James Bond, connu sous le code "007," alors qu'il est envoyé en mission pour affronter Le Chiffre, un dangereux banquier russe. Le but de la mission est, lors d’une partie de Poker, d'empêcher Le Chiffre de financer des activités terroristes à travers des jeux de pouvoir entre les deux camps. Le MI6 et les organisations terroristes.</p>
-        </article>
-        <a href="#novels-caroussel" class="article__button button">Voir les romans</a>
-        <article class="article">
-            <h1 class="article__title">De la Page à l'Écran : Casino Royale au Cinéma</h1>
-            <p class="article__text">L’impact de Casino Royale ne s’est pas limité à la littérature. En 2006, le roman a été adapté au cinéma, avec un changement d’acteur. La saga passant de Pierce Brosnan à Daniel Craig, ce fut un enjeux important pour la franchise. Le film, réaliste et sombre, aux actions spectaculaires, à été salué par la critique et s'inscrit comme l’un des meilleurs James Bond. Le succès de Casino Royale a donc conduit aux films que l’on connait tous : Quantum Of Solace, Skyfall, Spectre et dernièrement No Time To Die.</p>
-            <img src="/public/img/img_line_article2.webp" alt="Daniel Craig as James Bond" class="article__img">
-            <p class="article__img-description">Daniel Craig dans Casino Royale</p>
+            <h1 class="article__title">The Impact of American Beauty</h1>
+            <p class="article__text">American Beauty marked a turning point in Sam Mendes' career, and was his first success as a director. The film focuses on various social and family dysfunctions, taking a critical look at American society. The film's success established Sam Mendes as a director capable of captivating audiences while offering profound reflection.</p>
         </article>
         <article class="article">
-            <h1 class="article__title">L'Origine de l'Épopée James Bond</h1>
-            <p class="article__text">En résumé, Casino Royale de Ian Fleming est le point de départ de l’épopée James Bond. L’auteur à su créer un univers d’espionnage élégant, captivant et plein d’intrigues palpitantes. Le roman à introduit un personnage légendaire du cinéma et une série de films cultes depuis 1958. Casino Royale finalement est bien plus qu'un simple roman d'espionnage, c'est l'étincelle qui a enflammé la légende James Bond.</p>
+            <h1 class="article__title">Sam Mendes and James Bond: A Magisterial Fusion</h1>
+            <p class="article__text">In 2012, Sam Mendes brought a different vision to the saga from previous films in the franchise with Skyfall. His creativity has resulted in a film that balances classic Bond elements with a deeper exploration of the character, showing Bond vulnerable thanks to his charismatic villain.</p>
         </article>
-
-        <div 
-        class="caroussel"
-        id="novels-caroussel"
-        x-data="{
-        async tabnovel() {
-        const resp = await fetch('/src/json/novels.json');
-        return await resp.json();
-        },
-        }">
-        <h1 class="caroussel__title">Les romans de Ian Fleming</h1>
-            <div class="caroussel__container">
-                <template class="caroussel__template" x-for="img of tabnovel">
-                    <div class="caroussel__screen">
-                        <figure class="caroussel__figure appearsUp">
-                            <img
-                            class="caroussel__img"
-                            :src="img.img"
-                            :alt="img.alt"                             >
-                        </figure>
-                        <span class="caroussel__text" x-text="img.title">title</span>
-                        <span class="caroussel__text" x-text="img.date">date</span>
-                    </div>
-                </template>
-            </div>
-        </div>
-    </main> 
+        <a href="film.html" class="article__button button">About the film</a>
+        <article class="article">
+            <h1 class="article__title">Sam Mendes' Legacy</h1>
+            <p class="article__text">In addition to Skyfall, Sam Mendes has directed other successful films such as Les noces rebelles (2008), Les sentiers de la perdition (2002) and the fabulous 1917 (2019).</p>
+            <p class="article__text">The director's work is characterized by poignant storytelling, masterful art direction and exceptional performances that captivate his audience to the utmost with stories that are each more powerful than the last.</p>
+            <img src="/public/img/img_producer_article2.webp" alt="Photo de Sam Mendes" class="article__img">
+            <p class="article__img-description">Sam Mendes</p>
+        </article>
+        <article class="article">
+            <h1 class="article__title">Conclusion</h1>
+            <p class="article__text">Sam Mendes has left a significant and lasting impact on the modern film industry thanks to his dazzling career and his direction of many touching films such as Skyfall. His cinematic legacy continues to inspire new directors with his creative vision, exceptional storytelling and profound exploration of character. Thanks to Skyfall, he raised the spy movie to a new level that was impossible to achieve for the saga's subsequent opuses.</p>
+        </article>
+        <a href="film.html#caroussel-film" class="article__button button">See the other films in the franchise</a>
+    </main>
 
     <footer class="footer">
         <nav class="footer__nav">
