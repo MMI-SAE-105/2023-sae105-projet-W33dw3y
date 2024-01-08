@@ -35,7 +35,7 @@
 
 /* Nav */
 .menu__main {
-    padding: 3rem 1rem;
+    padding: 5rem 1rem;
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -59,21 +59,12 @@
     position: relative;
 }
 
-/* .menu__main-element5::after {
-    content: "";
-    width: 70px;
-    height: 1px;
-    background-color: #fff;
+/* Bouton langue */
+.menu__langage {
     position: absolute;
-    left: 10px;
-    bottom: -10px;
-} */
-
-/* Footer */
-.menu__footer {
-    align-self: flex-end;
+    right: 1rem;
+    top: 6rem;
 }
-
 
 /* Mise en couleur pour la naviguation */
 .menu__main-line-title,
