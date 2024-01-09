@@ -59,6 +59,11 @@
     position: relative;
 }
 
+.menu__main-link-2 {
+    font-size: var(--menu-2);
+}
+
+
 /* Bouton langue */
 .menu__langage {
     position: absolute;
@@ -66,20 +71,9 @@
     top: 6rem;
 }
 
+
 /* Mise en couleur pour la naviguation */
-.menu__main-line-title,
-.menu__main-film-title,
-.menu__main-producer-title,
-.menu__main-music-title,
-.menu__main-book-title,
-.menu__main-projects-title,
-.menu__main-glossary-title,
-.menu__main-about-title,
-.menu__main-contact-title {
+.menu__highlight {
     color: #fff;
     -webkit-text-stroke: 0px;
-}
-
-.menu__main-link-2 {
-    font-size: var(--menu-2);
 }
