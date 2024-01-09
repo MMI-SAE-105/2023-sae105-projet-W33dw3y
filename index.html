@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AllAboutSkyfall</title>
     <link rel="stylesheet" href="/src/css/vendors/styles.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body class="index__body">
     <div class="index__container">
-        <h1 class="index__title"><a href="/fr/index.html" class="index__link">Francais</a></h1>
-        <h1 class="index__title"><a href="/en/index.html" class="index__link">English</a></h1>
+        <h1 class="index__title">
+            <a href="/fr/index.html" class="index__link" onclick="document.cookie = `nf_lang=fr; path=/ ; SameSite=Strict`">Francais</a>
+        </h1>
+        <h1 class="index__title">
+            <a href="/en/index.html" class="index__link" onclick="document.cookie = `nf_lang=en; path=/ ; SameSite=Strict`">English</a>
+        </h1>
     </div>
 </body>
 </html>
