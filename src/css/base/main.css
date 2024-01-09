@@ -29,6 +29,9 @@ strong {
     font-weight: normal;
 }
 
+em {
+    font-style: normal;
+}
 /*links*/
 a {
     text-decoration: none;

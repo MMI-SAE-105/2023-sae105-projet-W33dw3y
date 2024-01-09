@@ -11,7 +11,7 @@ Pour commencer, faites un fork (copie) de ce repository sur votre propre compte 
 
 
 ## Pour rappel, ce que doit respecter votre projet :
-- Au moins 5 pages HTML5 pour chaque langue (donc 10 pages minimum au total). Toutes les pages devront être **valides** ([validator.w3.org](https://validator.w3.org/)) 
+- Au moins 5 pages HTML5 pour chaque langue (donc 10 pages minimum au total). Toutes les pages devront être **valides** ([validator.w3.org](https://validator.w3.org/))
 - Pour rappel, d'un point de vue structurel, votre site doit contenir, à minima :
   - une en-tête de page,
   - un pied de page,
@@ -34,7 +34,7 @@ Pour commencer, faites un fork (copie) de ce repository sur votre propre compte 
   - la liste des liens vers les autres projets du groupe de TP
 - Tous les fichiers doivent être organisés dans des dossiers et nommés correctement ([en savoir plus](https://2associes.com/conventions-de-nomenclature-de-fichiers/))
 - Des images et vidéos optimisées pour un affichage mobile
- 
+
 
 ## Pour la partie CSS
 Vous n'utiliserez aucune librairie css, hormis un fichier de normalisation (normalize.css).
