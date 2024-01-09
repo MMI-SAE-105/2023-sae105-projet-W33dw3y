@@ -4,7 +4,7 @@
         "alt":"affiche du film La Vague",
         "nom":"Samuel Charasse",
         "projet":"Abyssal Wave",
-        "href": ""
+        "href": "https://abyssal-wave.scharasse.fr/"
     },
     {
         "img": "/public/img/img_projects-2.webp",
@@ -25,7 +25,7 @@
         "alt": "Affiche du film Spide-man Across The spider verse",
         "nom": "Rayane Damage",
         "projet": "Across the spider-web",
-        "href": ""
+        "href": "https://across-the-spider-web.rdamage.fr"
     },
     {
         "img": "/public/img/img_projects-5.webp",
@@ -46,7 +46,7 @@
         "alt": "Affiche du film Oppenheimer",
         "nom": "Kalan Yilmaz",
         "projet": "Oppenmind",
-        "href": ""
+        "href": "https://oppenmind.kalan-yilmaz.fr"
     },
     {
         "img": "/public/img/img_projects-8.webp",
@@ -58,7 +58,7 @@
     {
         "img": "/public/img/img_projects-9.webp",
         "alt": "Affiche du film Le pianiste",
-        "nom": "Pierre Gachot",
+        "nom": "Pierre Gachod",
         "projet": "Le pianiste",
         "href": ""
     },
@@ -74,6 +74,20 @@
         "alt": "Affiche du film Oppenheimer",
         "nom": "Tony morreti",
         "projet": "Oppenheimer",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-12.webp",
+        "alt": "Affiche du film The Dark Knight",
+        "nom": "Logan Martinez",
+        "projet": "Why So Serious ?",
+        "href": ""
+    },
+    {
+        "img": "/public/img/img_projects-13.webp",
+        "alt": "Affiche du film Le seigneur des anneaux",
+        "nom": "Jeremy Roy",
+        "projet": "Mordor's Direction",
         "href": ""
     }
 ]
