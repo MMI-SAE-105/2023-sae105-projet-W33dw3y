@@ -11,14 +11,14 @@
         "alt": "Affiche du film La ligne verte",
         "nom": "Angelo Bosetti",
         "projet": "The long Line",
-        "href": ""
+        "href": "https://the-long-line.angelo-bosetti.fr"
     },
     {
         "img": "/public/img/img_projects-3.webp",
         "alt": "Affiche du film Le labyrinthe le remède mortel",
         "nom": "Liloue Guyot",
         "projet": "Ton futur est entre tes mains",
-        "href": ""
+        "href": "https://sae105-projet.lguyot.fr"
     },
     {
         "img": "/public/img/img_projects-4.webp",
@@ -32,7 +32,7 @@
         "alt": "Affiche du film Le roi lion",
         "nom": "Tasnim Kebaili",
         "projet": "Hakuna matata",
-        "href": ""
+        "href": "https://hakuna-matata.kebaili-tasnim.fr"
     },
     {
         "img": "/public/img/img_projects-6.webp",
@@ -53,41 +53,41 @@
         "alt": "Affiche du film Barbie",
         "nom": "Oli Thamilselvan",
         "projet": "Impossible to be her",
-        "href": ""
+        "href": "http://impossible-to-be-her.thamilselvan.fr"
     },
     {
         "img": "/public/img/img_projects-9.webp",
         "alt": "Affiche du film Le pianiste",
         "nom": "Pierre Gachod",
         "projet": "Le pianiste",
-        "href": ""
+        "href": "https://lepianiste.pierre-gachod.fr"
     },
     {
         "img": "/public/img/img_projects-10.webp",
         "alt": "Affiche du film Princesse mononoke",
         "nom": "Imrane Qerchi",
         "projet": "Unclouded by hate",
-        "href": ""
+        "href": "https://uncloudedbyhate.imrane-qerchi.fr"
     },
     {
         "img": "/public/img/img_projects-11.webp",
         "alt": "Affiche du film Oppenheimer",
         "nom": "Tony morreti",
         "projet": "Oppenheimer",
-        "href": ""
+        "href": "https://oppenheimer.tonymoretti.fr"
     },
     {
         "img": "/public/img/img_projects-12.webp",
         "alt": "Affiche du film The Dark Knight",
         "nom": "Logan Martinez",
         "projet": "Why So Serious ?",
-        "href": ""
+        "href": "http://soserious.logan-martinez.fr"
     },
     {
         "img": "/public/img/img_projects-13.webp",
         "alt": "Affiche du film Le seigneur des anneaux",
         "nom": "Jeremy Roy",
         "projet": "Mordor's Direction",
-        "href": ""
+        "href": "https://mordors-direction.j-roy.fr"
     }
 ]
