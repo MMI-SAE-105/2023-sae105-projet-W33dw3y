@@ -32,6 +32,21 @@ strong {
 em {
     font-style: normal;
 }
+
+q {
+    display: block;
+
+
+    &::after,
+    &::before {
+    content: "";
+    }
+}
+
+dd {
+    margin: 0;
+}
+
 /*links*/
 a {
     text-decoration: none;
